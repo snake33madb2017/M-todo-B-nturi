@@ -383,8 +383,8 @@ app.post('/api/generate-report', async (req, res) => {
 // Servir la aplicación React (PWA) estática
 app.use(express.static(path.join(__dirname, '../benturi_pwa/dist')));
 
-// Ruta comodín para que el enrutamiento de React funcione correctamente
-app.get('*', (req, res) => {
+// Ruta comodín para que el enrutamiento de React funcione correctamente (Express 5 fix)
+app.use((req, res, next) => {
     res.sendFile(path.join(__dirname, '../benturi_pwa/dist/index.html'));
 });
 
