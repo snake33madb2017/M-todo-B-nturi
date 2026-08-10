@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: benturi-app
+    env: node
+    plan: free
+    rootDir: .
+    buildCommand: cd benturi_backend && npm install && cd ../benturi_pwa && npm install && npm run build
+    startCommand: node benturi_backend/server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: VAPID_PUBLIC_KEY
+        value: BEUPFhphS_YDpLxWb18rsXx7L4aRrS2uAmlz5enpF0rHHJamSWq3G9cRy1sLAN3w186Egtavgp85cmiIGFkFTYw
+      - key: VAPID_PRIVATE_KEY
+        value: d8gCEsYMFjQrDrG4Ju4yCfLXMRiT6dQcKgZpusAT9iE
+      # Recuerda añadir GEMINI_API_KEY en el panel de Render

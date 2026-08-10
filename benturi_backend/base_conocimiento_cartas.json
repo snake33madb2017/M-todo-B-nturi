@@ -1,0 +1,2416 @@
+{
+  "significado_cartas": [
+    {
+      "carta": "As oros",
+      "acepcion_principal": "triunfo victoria",
+      "acepciones_secundarias": "Méritos,honores,salud,ascenso,encanto magnetismo"
+    },
+    {
+      "carta": "2 oros",
+      "acepcion_principal": "compartir,repartir",
+      "acepciones_secundarias": "dudas materiales,justo reparto,leer letra pequeña"
+    },
+    {
+      "carta": "3 oros",
+      "acepcion_principal": "mentiras,esconder,escuchar para descubrir",
+      "acepciones_secundarias": "papeleos ,escuchar para descubrir engaño"
+    },
+    {
+      "carta": "4 oros",
+      "acepcion_principal": "sexualidad",
+      "acepciones_secundarias": "amor,sexo contratado,sexo sin amor"
+    },
+    {
+      "carta": "5 oros",
+      "acepcion_principal": "amores ilicitos,engaño,timo",
+      "acepciones_secundarias": "engaño económico,timo,robo,desconfiar"
+    },
+    {
+      "carta": "6 oros",
+      "acepcion_principal": "dinero x sorpresa,lamentos x dinero",
+      "acepciones_secundarias": "avaricia,ilusiones banales,poco probables"
+    },
+    {
+      "carta": "7 oros",
+      "acepcion_principal": "seguridad material,suerte",
+      "acepciones_secundarias": "Ganancias,\"éxito material\",alegrias"
+    },
+    {
+      "carta": "8 oros",
+      "acepcion_principal": "fortuna compartida,suerte",
+      "acepciones_secundarias": "Éxito material,seguridad financiera"
+    },
+    {
+      "carta": "9 oros",
+      "acepcion_principal": "dinero x sorpresa,rentas",
+      "acepciones_secundarias": "bienestar y tranquilidad material,vivir con holgura sin derrochar"
+    },
+    {
+      "carta": "Sota oros",
+      "acepcion_principal": "mujer casquivana y alegre",
+      "acepciones_secundarias": "Mujer alegre ,coqueteria,mujer banal"
+    },
+    {
+      "carta": "Caballo oros",
+      "acepcion_principal": "noticias dinero",
+      "acepciones_secundarias": "inteligencia,examenes aprobados,ideas,genialidad"
+    },
+    {
+      "carta": "Rey oros",
+      "acepcion_principal": "empresario fuerte,banquero,financiero",
+      "acepciones_secundarias": ""
+    },
+    {
+      "carta": "As copas",
+      "acepcion_principal": "amor,casa",
+      "acepciones_secundarias": "suerte en el amor,belleza,alegria,familia"
+    },
+    {
+      "carta": "2 copas",
+      "acepcion_principal": "amor sincero,dualidad,amor correspondido",
+      "acepciones_secundarias": "cariño,dos viviendas,hijos,familia feliz"
+    },
+    {
+      "carta": "3 copas",
+      "acepcion_principal": "descendencia,embarazo,noticias persona interés",
+      "acepciones_secundarias": "amor a los hijos"
+    },
+    {
+      "carta": "4 copas",
+      "acepcion_principal": "amor,sexualidad,pasión",
+      "acepciones_secundarias": "cariño,afecto,todo diáfano y dual"
+    },
+    {
+      "carta": "5 copas",
+      "acepcion_principal": "celebración,festejo",
+      "acepciones_secundarias": "boda,bautizo,invitaciones a eventos"
+    },
+    {
+      "carta": "6 copas",
+      "acepcion_principal": "Decepción recuerdos,retorno amor pasado",
+      "acepciones_secundarias": ""
+    },
+    {
+      "carta": "7 copas",
+      "acepcion_principal": "amor, amor, amor, sincero y correspondido",
+      "acepciones_secundarias": "amor x amor ,pareja unida ante adversidades"
+    },
+    {
+      "carta": "8 copas",
+      "acepcion_principal": "amor de familia , familia unida",
+      "acepciones_secundarias": "dar sin esperar nada a cambio"
+    },
+    {
+      "carta": "9 copas",
+      "acepcion_principal": "amor espiritual,crecimiento personal",
+      "acepciones_secundarias": "amor ideal y platónico"
+    },
+    {
+      "carta": "Sota copas",
+      "acepcion_principal": "Buena esposa ,compañera,hija",
+      "acepciones_secundarias": "persona sencilla y encantadora"
+    },
+    {
+      "carta": "Caballo copas",
+      "acepcion_principal": "noticias bonitas del amor",
+      "acepciones_secundarias": "encuentro con persona que deseamos , cuidado con la bebida"
+    },
+    {
+      "carta": "Rey copas",
+      "acepcion_principal": "Buen esposo,hombre honrado",
+      "acepciones_secundarias": "hermano mayor,pacifico,cariñoso"
+    },
+    {
+      "carta": "As bastos",
+      "acepcion_principal": "triunfo , ascenso",
+      "acepciones_secundarias": "honores,reconocimientos,fuerza"
+    },
+    {
+      "carta": "2 bastos",
+      "acepcion_principal": "Dos trabajos",
+      "acepciones_secundarias": "dudas dos trabajos,elegir entre ambos"
+    },
+    {
+      "carta": "3 bastos",
+      "acepcion_principal": "Ascenso,reconocimiento",
+      "acepciones_secundarias": "honores triunfos,éxito en el trabajo"
+    },
+    {
+      "carta": "4 bastos",
+      "acepcion_principal": "solidez y satisfacción laboral",
+      "acepciones_secundarias": "satisfacciones y seguridad laboral"
+    },
+    {
+      "carta": "5 bastos",
+      "acepcion_principal": "Paro laboral,inactividad",
+      "acepciones_secundarias": "pereza para el trabajo,desmotivación,separación"
+    },
+    {
+      "carta": "6 bastos",
+      "acepcion_principal": "Viajes laborales,traslados",
+      "acepciones_secundarias": "vehiculos trabajo,comunicaciones"
+    },
+    {
+      "carta": "7 bastos",
+      "acepcion_principal": "Éxito,buen trabajo",
+      "acepciones_secundarias": "ascenso,buenas noticias de trabajo"
+    },
+    {
+      "carta": "8 bastos",
+      "acepcion_principal": "Orden ,trabajo continuado",
+      "acepciones_secundarias": "seguridad laboral"
+    },
+    {
+      "carta": "9 bastos",
+      "acepcion_principal": "Sociedad,negocio,cooperativa",
+      "acepciones_secundarias": "mirar cartas adyacentes,para resultado"
+    },
+    {
+      "carta": "Sota bastos",
+      "acepcion_principal": "Mujer cierto poder y mando,empresaria",
+      "acepciones_secundarias": "mujer sincera,trabajadora,buena compañera"
+    },
+    {
+      "carta": "Caballo bastos",
+      "acepcion_principal": "Noticias laborales",
+      "acepciones_secundarias": "avisos ,comunicaciones ,llamadas laborales"
+    },
+    {
+      "carta": "Rey bastos",
+      "acepcion_principal": "Empresario trabajo Honrado",
+      "acepciones_secundarias": "agradable,sincero,sencillo,campechano,de palabra"
+    },
+    {
+      "carta": "As espadas",
+      "acepcion_principal": "Triunfo o Derrota",
+      "acepciones_secundarias": "poner atención en la salud y la ley"
+    },
+    {
+      "carta": "2 espadas",
+      "acepcion_principal": "Segunda oportunidad",
+      "acepciones_secundarias": "relacionado con la ley y la justicia,tambíen el amor"
+    },
+    {
+      "carta": "3 espadas",
+      "acepcion_principal": "Tristeza ,dolor",
+      "acepciones_secundarias": "posible separación no definitiva,melancolia"
+    },
+    {
+      "carta": "4 espadas",
+      "acepcion_principal": "Sexualidad,pasiones",
+      "acepciones_secundarias": "separación por temas intimos,enfermedad genital"
+    },
+    {
+      "carta": "5 espadas",
+      "acepcion_principal": "Amistades negativas",
+      "acepciones_secundarias": "estar atentos"
+    },
+    {
+      "carta": "6 espadas",
+      "acepcion_principal": "Karma,castigos,impedimentos",
+      "acepciones_secundarias": "penas ,angustias,cambio de criterio"
+    },
+    {
+      "carta": "7 espadas",
+      "acepcion_principal": "Llanto disgustos",
+      "acepciones_secundarias": "enfrentamientos,comienzo rupturas"
+    },
+    {
+      "carta": "8 espadas",
+      "acepcion_principal": "Criticas,calummnias",
+      "acepciones_secundarias": ""
+    },
+    {
+      "carta": "9 espadas",
+      "acepcion_principal": "Tristeza ,depresión,angustia",
+      "acepciones_secundarias": ""
+    },
+    {
+      "carta": "Sota espadas",
+      "acepcion_principal": "Mujer vengativa,chismosa, separación",
+      "acepciones_secundarias": "desde una nueva amiga,o mal aspectada ,madre o hermana"
+    },
+    {
+      "carta": "Caballo espadas",
+      "acepcion_principal": "Valentia,noticias tristes,reconciliación",
+      "acepciones_secundarias": "pelear,fuerza bruta,armas"
+    },
+    {
+      "carta": "Rey espadas",
+      "acepcion_principal": "Poder,juez,sacerdote,esposo ,padre",
+      "acepciones_secundarias": "persona autoritaría,unformes,militares,abogados ,juicios"
+    }
+  ],
+  "combinaciones": [
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Rey de Bastos.",
+      "significado": "Lucha por el poder, celos profesionales."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Rey de Espadas.",
+      "significado": "Triunfo sin importar el método."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Rey de Espadas con cualquier oro excepto el cinco.",
+      "significado": "Pleito o juicio ganado."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Rey de Copas.",
+      "significado": "Traición, falsos ofrecimientos, decepción mutua, disgusto o distanciamiento de la pareja con difícil solución."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Rey de Oros.",
+      "significado": "Acuerdos poco limpios pero ventajosos, juicio contra otra persona, posible pérdida, mejor negociar que pleitear."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Caballo de Bastos.",
+      "significado": "Viaje forzado pero con buenos resultados."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Caballo de Espadas.",
+      "significado": "Ataque imprevisto, salvación, huida."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Caballo de Copas.",
+      "significado": "Mudanza obligada, presión de los acreedores."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Caballo de Oros.",
+      "significado": "Viaje de placer, ganancias en el extranjero."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Sota de Bastos.",
+      "significado": "Celos, divorcio, amante."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Sota de Espadas.",
+      "significado": "Utilización de la propia persona, pleito matrimonial."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Sota de Copas.",
+      "significado": "Infidelidad a escondidas, secretos sin descubrir."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Sota de Oros.",
+      "significado": "Entendimiento mezquino."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Nueve de Bastos.",
+      "significado": "Actividad peligrosa."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Nueve de Espadas.",
+      "significado": "Riesgo calculado, triunfo."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Nueve de Copas.",
+      "significado": "Descomposturas en el hogar, remiendos."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Nueve de Copas.",
+      "significado": "Esta combinación es una de las mejores en la baraja española. Indica que aquello que deseas se encuentra al alcance de tu mano, sólo debes actuar para lograrlo."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Ocho de Bastos",
+      "significado": "asuntos pendientes que se evitan con astucia"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Ocho de Espadas",
+      "significado": "escape de la justicia, libramiento de un proceso judicial"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Ocho de Copas",
+      "significado": "psiquismo mal encauzado, superstición, brujería."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Ocho de Oros.",
+      "significado": "Política de desprestigio beneficiosa."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Siete de Bastos.",
+      "significado": "Obstáculos por el clima, ascenso laboral mejor de lo que se esperaba"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Siete de Espadas.",
+      "significado": "Malas ideas, preparación de un fraude"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Siete de Copas.",
+      "significado": "Despojo, abuso, sorpresa desagradable."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Siete de Oros.",
+      "significado": "Cambio económico favorable"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + + Seis de Basto.",
+      "significado": "Enfrentamiento verbal"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Seis de espadas.",
+      "significado": "Exilio beneficioso, falta de valores"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Seis de Copas.",
+      "significado": "Reconciliación, viaje, visitas"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Seis de Oros.",
+      "significado": "Usura, dinero negro, falsas inversiones"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + + Cinco de Bastos.",
+      "significado": "Complot, ponerse de acuerdo para fastidiar a un tercero"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Cinco Espadas.",
+      "significado": "Pérdidas que se convierten en ganancias, derrotas que se convierten en triunfos"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Cinco de Copas.",
+      "significado": "Ingenuidad costosa, irresponsabilidad"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Cinco de Oros.",
+      "significado": "Sacar provecho de los pobres o de los desperdicios, aprovecharse de la beneficencia"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Cuatro de Bastos.",
+      "significado": "Malos pensamientos detrás de una sana apariencia"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Cuatro Espadas.",
+      "significado": "Amor sin escrúpulos"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Cuatro de Copas.",
+      "significado": "Aprovecharse de los sentimientos y las debilidades de los demás."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Cuatro de Oros.",
+      "significado": "Triunfo del interés material sobre todas las cosas."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Tres de Bastos.",
+      "significado": "Boda atrasada."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas+ Tres de Espadas.",
+      "significado": "Enlace roto por enfermedad."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Tres de Copas.",
+      "significado": "Embarazo prematuro, boda obligada."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Tres de Oros.",
+      "significado": "Desenfreno, negocios nocturnos."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Dos de Bastos.",
+      "significado": "Litigio, notificaciones, reclamación legal."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Dos de Espadas.",
+      "significado": "Justicia parcial, injusticia."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Oros de Copas.",
+      "significado": "Fuerza de voluntad para romper con el inicio de un problema."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de Espadas + Dos de Oros.",
+      "significado": "Falso lujo, economía engañosa."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "As de espadas + As de Copas + Cuatro de Espadas.",
+      "significado": "Disgusto en casa por un tema de salud."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Dos de Espadas + Ocho de Espadas.",
+      "significado": "Problemas serios de la columna vertebral."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Dos de Espadas + Sota de Espadas.",
+      "significado": "Una amistad se entrometerá en nuestra vida causándonos disgusto."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Dos de Espadas + Caballo de Oros.",
+      "significado": "Exámenes aprobados a la segunda oportunidad, gran esfuerzo por cursar dos estudios al mismo tiempo."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Dos de Espadas + Rey de Bastos.",
+      "significado": "Promesa a nivel laboral sobre un ascenso que se realizará con tardanza."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Tres de Espadas + Nueve de Espadas.",
+      "significado": "Tortura psicológica creada por el entorno o por uno mismo, autosugestión."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Tres de Espadas + Sota de Espadas.",
+      "significado": "Pensamientos en una ruptura o divorcio."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Tres de Espadas + Caballo de Espadas.",
+      "significado": "Disgustos con la ley por un chico joven."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Tres de Espadas + Cinco de Oros.",
+      "significado": "Exceso de gastos, ruina por imprudencia o poca precaución."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Tres de Espadas + Cinco de Copas.",
+      "significado": "Error con el amor que se tiene o en quien se piensa."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Tres de Espadas + Rey de Copas.",
+      "significado": "Matrimonio sin amor."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "ViolaciónCuatro de espadas + Nueve de Espadas.",
+      "significado": "Problemas psicológicos a causa de la sexualidad."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cuatro de Espadas + Sota de Espadas.",
+      "significado": "Abandono o falta de deseo, convento o tiempo de retiro."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cuatro de Espadas + Caballo de Espadas.",
+      "significado": "Huir donde no nos reconozcan, autoagresión por no gustarnos ni aceptarnos."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cuatro de Espadas + Rey de Espadas.",
+      "significado": "Peligro de prisión o disgustos con la ley."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cuatro de Espadas + As de Copas.",
+      "significado": "Reclusión en la propia casa."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cuatro de Espadas + As de Bastos.",
+      "significado": "Prepotencia, soberbia, desprecio por los demás."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cinco de Espadas + Sota de Oros.",
+      "significado": "Una mujer conocida provocará a nuestra pareja y no se detiene."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cinco de Espadas + Rey de Oros.",
+      "significado": "Hombre poderoso impedirá nuestros proyectos influenciado por terceras personas."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cinco de Espadas + Dos Sotas.",
+      "significado": "Los amigos nos traicionan y regalan."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cinco de Espadas + Dos Caballos.",
+      "significado": "Los amigos nos envidian y difaman."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cinco de Espadas + Seis de Copas.",
+      "significado": "No conseguimos olvidar una traición pasada, obsesión."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Cinco de Espadas + Tres de Bastos.",
+      "significado": "Críticas en el entorno laboral con falsas sonrisas."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Seis de Espadas + Cuatro de Espadas+ Nueve de Espadas.",
+      "significado": "Soledad inmensa."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Seis de Espadas + Caballo de Espadas.",
+      "significado": "Robo en un viaje."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Seis de Espadas + Siete de Oros.",
+      "significado": "Préstamo recibido que se tardará en devolver."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Seis de Espadas + As de Copas.",
+      "significado": "Disgustos en la familia."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Seis de Espadas + Sota de Copas.",
+      "significado": "Cambio de carácter en la persona que amas, esposa o novia, compañera de amor."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Seis de Espadas + Rey de Bastos + Ocho de Espadas.",
+      "significado": "Enfermedad grave."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Siete de Espadas + Sota de Espadas + Caballo de Espadas.",
+      "significado": "Viudo."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Siete de Espadas + Rey de Espadas+ Sota de Espadas.",
+      "significado": "Viuda."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Siete de Espadas + Rey de Copas.",
+      "significado": "Esposo o compañero muy desilusionado, pensamientos de ruptura."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Siete de Espadas + Rey de Copas +  Caballo de Oros.",
+      "significado": "Hombre que se entromete en nuestro amor."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Ocho de Espadas + Siete de Espadas.",
+      "significado": "Decepciones tremendas, traiciones."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Ocho de Espadas + Sota de Espadas.",
+      "significado": "Una mujer nos traicionará de manera premeditada."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Ocho de Espadas + Caballo de Espadas.",
+      "significado": "Intervención quirúrgica."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Ocho de Espadas + Rey de Espadas.",
+      "significado": "Hombre de leyes que nos engañará."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Ocho de Espadas + As de Copas.",
+      "significado": "Desprecios de nuestra propia familia."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Ocho de Espadas + Rey de Oros.",
+      "significado": "Timo, estafa."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Ocho de Espadas + Cuatro de Bastos.",
+      "significado": "Descalabro social en el trabajo, expediente."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Nueve de Espadas + Dos de Espadas.",
+      "significado": "Pequeño momento depresivo, algo transitorio."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Nueve de Espadas + Cinco de Espadas.",
+      "significado": "Depresión o pena a causa de algún acontecimiento doloroso."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Nueve de Espadas + Ocho de Espadas.",
+      "significado": "Depresión profunda, enfermedad mental, tratamiento psiquiátrico."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Nueve de Espadas + As de Copas.",
+      "significado": "Aislamiento, encerramiento."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Nueve de Espadas + Siete de Copas+ Cuatro de Copas.",
+      "significado": "Gran soledad en el amor."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Nueve de Espadas + Siete de Bastos.",
+      "significado": "Fuertes problemas en el trabajo creados por uno mismo."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Nueve de Espadas + Ocho de Oros.",
+      "significado": "Avaricia, obsesión por el dinero."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Nueve de Espadas + Nueve de Oros + Rey de Espadas.",
+      "significado": "Falso diagnóstico médico."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Sota de Espadas + Rey de Espadas.",
+      "significado": "Disgustos entre hombre y mujer, pleitos, denuncias."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Sota de Espadas + Cualquier Palo de Espadas.",
+      "significado": "Pruebas o biopsias en cualquiera de los órganos que representan las espadas."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Sota de Espadas + Ocho de Oros.",
+      "significado": "Mujer muy avariciosa, pero sagaz para el dinero."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Sota de Espadas + Rey de Oros.",
+      "significado": "Mujer que engaña a un hombre de buena posición."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Sota de Espadas + Rey de Copas.",
+      "significado": "Esposa dura, fría, negativa para el esposo, madre, hermana o hija."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Sota de Espadas + Rey de Bastos.",
+      "significado": "Mujer que inventa una calumnia en el trabajo."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Caballo de Espadas + Cuatro de Espadas.",
+      "significado": "Enamorado poco cariñoso, brusco."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Caballo de Espadas + Rey de Espadas.",
+      "significado": "Viudez o luto."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Caballo de Espadas + Ocho de Oros.",
+      "significado": "Luchar fuertemente para recuperar un dinero."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Caballo de Espadas + Caballo de Copas.",
+      "significado": "Ascenso militar, encuentro con un militar que nos favorecerá"
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Caballo de Espadas + Rey de Copas + Cuatro de Espadas.",
+      "significado": "Enfrentamientos y peleas entre dos hombres, denuncias."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Caballo de Espadas + Cinco de Bastos.",
+      "significado": "Disgustos laborales con los compañeros."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Rey de Espadas + Tres de Espadas + Tres de Copas.",
+      "significado": "Juicio perdido."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Rey de Espadas + Caballo de Espadas + Nueve de Espadas.",
+      "significado": "Accidente."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Rey de Espadas + As de Oros + Tres de Oros.",
+      "significado": "Juicio ganado."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Rey de Espadas + Rey de Copas + Ocho de Copas.",
+      "significado": "Boda, convite."
+    },
+    {
+      "palo_origen": "espadas",
+      "combinacion": "Rey de Espadas + Caballo de Bastos + As de Bastos.",
+      "significado": "Trabajo relacionado con la ley."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Rey de Bastos.",
+      "significado": "Ganancias y triunfos en los negocios."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Rey de Espadas.",
+      "significado": "Poder y riqueza, herencia."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Rey de Copas.",
+      "significado": "Magníficas relaciones, triunfo en el mundo del arte."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Rey de Oros.",
+      "significado": "Fortuna, casamiento rico."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Caballo de Bastos.",
+      "significado": "Triunfo en los viajes y los estudios."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Caballo de Espadas.",
+      "significado": "Triunfo ante la justicia."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Caballo de Copas.",
+      "significado": "Triunfo en el amor."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Caballo de Oros.",
+      "significado": "Triunfo en los deportes, fortuna, examen exitoso."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Sota de Bastos.",
+      "significado": "Realización personal."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Sota de Espadas.",
+      "significado": "Triunfo en la lucha, por cruenta que sea."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Sota de Copas.",
+      "significado": "Triunfo con el sexo opuesto."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Sota de Oros.",
+      "significado": "Fama, triunfo con el público en general, fortuna."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Nueve de Bastos.",
+      "significado": "Herencia segura."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Nueve de Espadas.",
+      "significado": "Dominio de las leyes."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Nueve de Copas.",
+      "significado": "Fortuna en el hogar."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Nueve de Oros.",
+      "significado": "Ganancia en los juegos de azar."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + 8 de Bastos.",
+      "significado": "Revelación de responsabilidades."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Ocho de Espadas.",
+      "significado": "Liberación."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Ocho de Copas.",
+      "significado": "Sociedad, futuro asegurado."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Ocho de Oros.",
+      "significado": "Grandes ganancias en los negocios."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Siete de Bastos.",
+      "significado": "Cambio favorable de trabajo, ascenso en el trabajo."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Siete de Espadas.",
+      "significado": "Cambio de mentalidad favorable."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Siete de Copas.",
+      "significado": "Favorable cambio de pareja."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Siete de oros.",
+      "significado": "Favorable cambio de fortuna, fortuna en breve, suerte, dinero."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Seis de Bastos.",
+      "significado": "Abundancia, fertilidad, triunfo de la razón."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Seis de Espadas.",
+      "significado": "Cobro de primas, seguros o premios."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Seis de Copas.",
+      "significado": "Riqueza de sentimientos, amor seguro."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Seis de Oros.",
+      "significado": "Gran generosidad, buena suerte."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Cinco de Bastos.",
+      "significado": "Discusión beneficiosa económicamente hablando."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Cinco de Espadas.",
+      "significado": "Ganancias económicas que otorga la ley."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Cinco de Copas.",
+      "significado": "Satisfacciones de los hijos, diversión."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Cinco de Oros.",
+      "significado": "De la pobreza a la riqueza inesperadamente."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Cuatro de Bastos.",
+      "significado": "Bonanza en el campo, recompensa."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Cuatro de Espadas.",
+      "significado": "Descanso, tranquilidad, paz."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Cuatro  de Copas.",
+      "significado": "Felicidad familiar, alegría de los padres."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Cuatro de Oros.",
+      "significado": "Inversión que recibe desmesuradas ganancias."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Tres de Bastos.",
+      "significado": "Recuperación de un negocio."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Tres de Espadas.",
+      "significado": "Reconciliación, auto regeneración."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Tres de Copas.",
+      "significado": "Recuperación de un ser querido, embarazo."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Tres de Oros.",
+      "significado": "Recuperación de una fortuna."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Dos de Bastos.",
+      "significado": "Llegada de dinero, nacimiento feliz."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Dos de Espadas.",
+      "significado": "Aclaración de un mal entendido, ganancias literarias, prosperidad."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Dos de Copas.",
+      "significado": "Recepción de honores, homenaje en vida, premio económico importante."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + Dos de Oros.",
+      "significado": "Pese a una mala administración, muy buenas ganancias."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + As de Espadas.",
+      "significado": "Enfermedad estacionada."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + As de Copas.",
+      "significado": "Compra de una casa."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + As de Bastos.",
+      "significado": "Honores y reconocimientos."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "As de Oros + As de Bastos.",
+      "significado": "."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Dos de Oros + Rey de Copas.",
+      "significado": "Pleito pagado."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Dos de Oros + Rey de Espadas.",
+      "significado": "Cuidado con el abogado contrario."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Dos de Oros + As de Espadas.",
+      "significado": "Gastos entre médicos."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Dos de Oros + Cinco de Espadas.",
+      "significado": "Robo o engaño."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Dos de Oros + Cuatro de Copas.",
+      "significado": "Pequeño pago por una mujer."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Tres de Oros + Rey de Espadas.",
+      "significado": "Hombre dominante que quiere manejarlo."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Tres de Oros + Sota de Bastos.",
+      "significado": "Ayudas de un hombre extranjero."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Tres de Oros  + Siete copas.",
+      "significado": "Fiesta o ceremonia de mucha pompa."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Tres de Oros + Siete de Espadas + As de Espadas.",
+      "significado": "Robo en plena calle."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Tres de Oros + Cinco de Copas.",
+      "significado": "Regalo precioso del ser amado."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Tres de Oros + Tres de Espadas.",
+      "significado": "Mentira, estafa, fraude."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Tres de Oros + As de Copas.",
+      "significado": "Noticia buena de dinero en casa."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cuatro de Oros + Rey de Espadas + Cinco de Espadas + Tres de Oros.",
+      "significado": "Hombre vulgar que nos utiliza o acosa del entorno laboral."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cuatro de Oros + Rey de Oros + Seis de Oros.",
+      "significado": "Prostitución."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cuatro de Oros + Caballo de Espadas + As de Espadas + 9 Espadas.",
+      "significado": "Violación o situación muy forzada, daño moral y/o físico."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cuatro de Oros + Sota de Oros.",
+      "significado": "Placer compartido sin amor."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cuatro de Oros + Sota de Oros+ Caballo de Copas.",
+      "significado": "Diversión, fiestas, escándalos, libre albedrío sin miramientos, juergas, excesos."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cuatro de Oros + Siete de Copas.",
+      "significado": "Amor físico y mental."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cuatro de Oros + Cuatro de Bastos.",
+      "significado": "La sexualidad y el deseo aparecen en el entorno laboral."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cuatro de Oros + Cuatro de Espadas.",
+      "significado": "Enfermedad por transmisión sexual, contagio."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cuatro de Oros + Cuatro de Copas.",
+      "significado": "El sexo puede surgir dentro de la propia familia, escándalo."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cinco de oros + Cinco de Copas o Rey de Copas.",
+      "significado": "Quien pretende engañarte se encuentra en la propia familia."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Cinco de oros + Cinco de Bastos o Rey de Bastos.",
+      "significado": "Quien pretende confundirte o timarte se halla en el entorno laboral."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Seis de Oros + As de Espadas.",
+      "significado": "Dureza hacia los demás."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Seis de Oros + Nueve de Espadas.",
+      "significado": "Obsesiones."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Seis de oros + Sota de Espadas + Seis de Bastos.",
+      "significado": "Fuertes deudas contraídas."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Seis de oros + Tres de Bastos.",
+      "significado": "Mentiras y presumir con el dinero."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Seis de oros + Caballero de Oros.",
+      "significado": "Hombre o mujer con buen porvenir económico si se prepara intelectualmente."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Seis de Oros + Rey de Oros.",
+      "significado": "Un hombre rico pedirá la mano de alguien (el consultante o consultado)."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Seis de Oros + Rey de Oros y alguna Espada.",
+      "significado": "Hombre rico aunque negativo y perverso."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Siete de Oros + As de Oros...",
+      "significado": "premio seguro, azar."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Siete de Oros + Siete de Espadas.",
+      "significado": "Cobro de dinero con algún disgusto o tristeza por medio de accidente, herencia, seguros."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Siete de Oros + Siete de Copas.",
+      "significado": "Dinero fuerte y sólido que llega a través de la familia, padre, hermanos, esposos…"
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Siete de Oros + Siete de Bastos.",
+      "significado": "Ascenso de dinero inesperado y merecido por vía laboral de manera sólida, gratificación en el trabajo, recompensa."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Ocho de Oros + As de Oros.",
+      "significado": "Victoria total, premios, azar, cobros."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Ocho de Oros + Ocho de Espadas.",
+      "significado": "Fuertes gastos, casi en la misma proporción que lo que se tiene."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Ocho de Oros + As de Copas.",
+      "significado": "Reparto de herencias con buen fin."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Ocho de Oros+ As de Bastos.",
+      "significado": "Ascenso laboral, personal y económico, excelente perspectiva."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Ocho de Oros + Seis de Bastos o Cuatro de Bastos.",
+      "significado": "Negocio próspero."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Ocho de Oros + Siete de Bastos.",
+      "significado": "Trabajo bien remunerado."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Ocho de Oros + Ocho de Copas.",
+      "significado": "Reparto herencias, entre muchas personas pero justamente."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Nueve de Oros + Ocho de Oros+ As de Oros.",
+      "significado": "Azar, suerte, herencias importantes."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Nueve de Oros + Caballo de Oros.",
+      "significado": "Estudios caros poco provechosos."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Nueve de Oros + Rey de Oros.",
+      "significado": "Bancos, créditos, fuertes préstamos concedidos."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Nueve de Oros + Seis de Espadas + As de Copas.",
+      "significado": "Robo en casa."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Nueve de Oros + Nueve de Espadas.",
+      "significado": "Timo, estafa, robo, fraude."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Nueve de Oros + Sota de Espadas o Caballo de Espadas.",
+      "significado": "Personas en el terreno laboral de poca confianza."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Nueve de Oros + Rey de Copas.",
+      "significado": "Casamiento con  hombre rico."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Nueve de Oros + Tres de Bastos + Cinco de Espadas.",
+      "significado": "Robo en el trabajo."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Nueve de Oros + Rey de Bastos + Siete de Copas.",
+      "significado": "Negocios en sociedad favorables."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Sota de Oros + As de Oros + As de Bastos.",
+      "significado": "Belleza exterior y magnetismo."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Sota de Oros + Sota de Espadas.",
+      "significado": "Guerra entre dos mujeres negativas."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Sota de Oros + Caballo de Espadas.",
+      "significado": "Disgustos en el comienzo de una relación."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Sota de Oros + Sota de Copas + Espadas.",
+      "significado": "Crisis de pareja por otra mujer."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Sota de Oros + Sota de Copas + Rey de Copas.",
+      "significado": "Intención de robar al esposo o compañero."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Sota de Oros + As de Copas + Dos de Espadas.",
+      "significado": "Procurar educar bien a los hijos."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Sota de Oros + Cuatro de Copas + Cuatro de Espadas.",
+      "significado": "Tendencia a la bebida."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Caballero de Oros + As de Oros.",
+      "significado": "Descubrimiento social."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Caballero de Oros + As de Espadas + As de Bastos.",
+      "significado": "Médico o medicina."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Caballero de Oros + Seis de Espadas.",
+      "significado": "Accidente, parón repentino que frena los objetivos."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Caballero de Oros + As de Copas.",
+      "significado": "Hijos varones brillantes."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Caballero de Oros + As de Copas + Tres de Copas.",
+      "significado": "Hijas  brillantes."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Caballero de Oros + Dos de Copas.",
+      "significado": "Embarazo con el nacimiento de un hijo listo."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Caballero de Oros + Caballero de Copas.",
+      "significado": "Traslado de casa muy cerca de donde se vive."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Caballero de Oros+ Rey de Bastos.",
+      "significado": "Puesto de jefe en el trabajo, supervisor."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Rey de Oros + As de Oros o de Bastos.",
+      "significado": "Importante dirigente."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Rey de Oros + Ocho de Oros.",
+      "significado": "Fuerte inversión de dinero."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Rey de Oros + Siete de Espadas.",
+      "significado": "Banquero o empresario reidor"
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Rey de oros + Rey de Espadas + Rey de Copas + Rey de Bastos.",
+      "significado": "Importante sociedad laboral, empresarios que se sientan a dialogar, sindicatos, asociaciones políticas."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Rey de Oros + Ocho de Copas.",
+      "significado": "Padrino en algún convite."
+    },
+    {
+      "palo_origen": "oros",
+      "combinacion": "Rey de Oros + Sota de Copas.",
+      "significado": "Casamiento con hombre rico."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Rey de Bastos.",
+      "significado": "Ofrecimiento sincero, ayuda desinteresada."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Rey de Espadas.",
+      "significado": "Ayuda interesada, malos pactos deseos de poder."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Rey de Espadas + Ocho de Oros.",
+      "significado": "Herencia familiar."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de copas + rey de copas.",
+      "significado": "Regalo importante, casa nueva."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Rey de Copas + Cuatro de Copas.",
+      "significado": "Pasión por un amor."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Rey de Copas + Ocho de Oro.",
+      "significado": "Petición de matrimonio o compromiso serio."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Rey de Copas + Ocho de Oro.",
+      "significado": "As de Copas con Rey de Oros."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Rey de Copas + Ocho de Oro.",
+      "significado": "Golpe de suerte, puesto directivo."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas  + Caballo de Bastos.",
+      "significado": "Construcción, ofrecimiento de un viaje."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Caballo de Espadas.",
+      "significado": "Habilidad y destreza, llegar antes que los demás."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Caballo de Copa.",
+      "significado": "Sensibilidad, reconocimiento en el extranjero."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Caballo de Oros.",
+      "significado": "Publicación, invención, patente, joven sabio y brillante en la familia."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + la Sota de Bastos.",
+      "significado": "Petición de matrimonio."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + la Sota de Espadas.",
+      "significado": "Despecho, amor frustrado."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + la Sota de Copas.",
+      "significado": "Amor platónico que se convierte en realidad."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + la Sota de Oros.",
+      "significado": "Consentimiento, capricho, coquetería, mimos."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Nueve de Bastos.",
+      "significado": "Hijo adoptivo, protegido."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Nueve de Bastos + Sota de Espadas.",
+      "significado": "Intrigas y chismes en el hogar."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Nueve de Espadas.",
+      "significado": "Problemas de conciencia, errores pasados."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Nueve de Copas.",
+      "significado": "Gran alegría, estabilidad."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Nueve de Oros.",
+      "significado": "Exposición, actividad artística lucrativa."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Ocho de Bastos.",
+      "significado": "Creatividad, empeño, iniciativa."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Ocho de Espadas.",
+      "significado": "Perdón, misericordia."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Ocho de Copas.",
+      "significado": "Recepción de regalos, sorpresas agradables."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Ocho de Oros.",
+      "significado": "Trabajo artesanal, sensibilidad musical."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Siete de Bastos.",
+      "significado": "Trabajo social, ecología."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Siete de Espadas.",
+      "significado": "Conquista por el sentimiento, enfermedad grave en casa."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Siete de Espadas+ Nueve de Espadas+ As de Bastos.",
+      "significado": "Luto o muerte en el hogar."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + el Siete de Copas.",
+      "significado": "Exceso de sensibilidad, melancolía."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Siete de Oros.",
+      "significado": "Recelos, envidia, deseo de tener más."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Seis de Bastos.",
+      "significado": "Reconocimiento de los sentimientos propios."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Seis de Espadas.",
+      "significado": "Amor en el extranjero."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Seis de Copas.",
+      "significado": "Amor en el hogar."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Seis de Oros.",
+      "significado": "Donativo, consejo sentimental."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas+ Cinco de Bastos.",
+      "significado": "Interceder por los demás."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Cinco de Espadas.",
+      "significado": "Incapacidad para emitir un juicio por razones sentimentales."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Cinco de Copas.",
+      "significado": "Ofrecimiento que no podrá ser aceptado personalmente."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Cinco de Oros.",
+      "significado": "Sacrificio estéril, recuperación de algo perdido."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Cuatro de Bastos.",
+      "significado": "Amor pasional."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Cuatro de Espadas.",
+      "significado": "Amor desleal."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Cuatro de Copas.",
+      "significado": "Amor sentimental."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Cuatro de Oros.",
+      "significado": "Amor por interés."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Tres de Bastos.",
+      "significado": "Sociedad familiar"
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Tres de Espadas.",
+      "significado": "Depresión, lágrimas, apoyo moral."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Tres de Oros.",
+      "significado": "Amor afortunado"
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Dos de Bastos.",
+      "significado": "correspondencia sentimental"
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Dos de Espadas.",
+      "significado": "Mensaje de adiós o de ruptura"
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas +  Dos de Copas.",
+      "significado": "Invitación, condecoración, reconocimiento"
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + Dos de Oros.",
+      "significado": "Giro, ayuda económica de la familia o de alguien querido."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + As de Espadas.",
+      "significado": "Disgustos en el hogar, penas y llantos."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + As de Bastos.",
+      "significado": "Trabajar en el propia casa o muy cerca del donde se vive, compra de un inmueble, para el trabajo."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "As de Copas + As de Oros.",
+      "significado": "Buena adquisición de una vivienda."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Dos de Copas + As de Copas.",
+      "significado": "Dos viviendas de propiedad."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Dos de Copas + Sota de Copas + Rey de Copas.",
+      "significado": "Amor mutuo y correspondido."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Dos de Copas + Rey de copas + Rey de Bastos + Sota de Oros.",
+      "significado": "Relación ilícita con una mujer alegre."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Dos de Copas + Rey de Copas + Rey de Bastos.",
+      "significado": "Un amante secreto que nos atrae."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Dos de Copas + Caballo de Espadas + Dos de Espadas.",
+      "significado": "Pequeño accidente en el hogar."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Tres de Copas + Dos de Copas + Sota de Oros.",
+      "significado": "Embarazo para  una muchacha muy joven."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Tres de Copas + Caballo de Oros.",
+      "significado": "Hijo varón muy inteligente, sabio."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Tres de Copas + Tres de Espadas.",
+      "significado": "Falsa noticia de un embarazo."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Tres de Copas + Cinco de Espadas + As de Espadas.",
+      "significado": "Pérdida, aborto"
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Tres de Copas + Siete de Espadas.",
+      "significado": "Parto difícil"
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Tres de Copas + Sota de Bastos.",
+      "significado": "Hija muy inteligente."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cuatro de Copas + Siete de copas + Caballo de Copas.",
+      "significado": "Joven locamente enamorado."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cuatro de Copas + Siete de Copas + Sota de Copas.",
+      "significado": "Joven locamente enamorada."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cuatro de Copas + Sota de Copas + Caballo de Copas.",
+      "significado": "Jóvenes locamente enamorados de forma mutua y correspondida."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cuatro de Copas + Cuatro de Oros.",
+      "significado": "Pasión sexual sin amor, sólo atracción física."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cuatro de Copas + As de Espadas + Cuatro de Espadas.",
+      "significado": "Largo encamamiento de alguien muy querido."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cuatro de copas + Cuatro de Espadas+ Nueve de Espadas.",
+      "significado": "Sexualidad no correspondida, reprimida, forzada en ocasiones."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cuatro de Copas + Caballo de Espadas.",
+      "significado": "Persona agresiva que pretende nuestro amor de manera muy autoritaria."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cinco de Copas + Rey de Copas + Siete de Copas.",
+      "significado": "Casamiento por amor."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cinco de Copas + Rey de Oros + Rey de Bastos.",
+      "significado": "Evento muy importante al que estaremos invitados."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cinco de Copas + Cinco de Espadas.",
+      "significado": "Celebración forzada y decepcionante."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cinco de Copas + Sota de Espadas.",
+      "significado": "Una mujer creará disgusto en un convite."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Cinco de Copas + As de Bastos.",
+      "significado": "Honores y reconocimientos en el trabajo."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Seis de Copas + Seis de Copas.",
+      "significado": "Esperanza de retomar el pasado donde se dejó."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Seis de Copas + Siete de Copas + Caballo de Copas.",
+      "significado": "Encuentro placentero con alguien del pasado, retomar un nuevo amor."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Seis de Copas + Caballo de Espadas.",
+      "significado": "Agresión psicológica del pasado."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Seis de Copas + Sota de Bastos",
+      "significado": "demasiada obsesión con que los tiempos pasados fueron mejores."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Siete de Copas + As de Copas.",
+      "significado": "Amor, unidad y firmeza en la familia, en el hogar donde se vive."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Siete de Copas + Rey de Copas + Sota de Copas.",
+      "significado": "Casamiento feliz, sincero y duradero, lazos difíciles de romper."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Siete de Copas + Sota de Oros.",
+      "significado": "Amor apasionado pero poco duradero."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Siete de Copas + Siete de Espadas.",
+      "significado": "Amor no correspondido."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Siete de Copas + Siete de Bastos.",
+      "significado": "Muchos obstáculos para asentar un amor."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Ocho de Copas + As de Copas.",
+      "significado": "Unidad familiar, sólida y sincera."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Ocho de Copas + Tres de Copas.",
+      "significado": "Embarazo en la familia."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Ocho de Copas + Sota de Espadas.",
+      "significado": "Enredos y maldades de alguien dentro de la familia."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Ocho de Copas + Diez de Espadas.",
+      "significado": "Fuertes disgustos en la familia por la salud."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Nueve de copas+ caballo de copas.",
+      "significado": "Luchas entre el amor místico y el carnal."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Nueve de copas+ rey de oros.",
+      "significado": "Sacerdote o religioso."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Nueve de Copas + Sota de Espadas +  Nueve de Espadas.",
+      "significado": "Vidente o médium fanático."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Nueve de Copas + Siete de Bastos.",
+      "significado": "Buen equipo de trabajo, excelentes consejo."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Nueve de Copas + Sota de Bastos.",
+      "significado": "Monja o seglar."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Nueve de Copas + Sota de Bastos + Seis de Copas.",
+      "significado": "Buena capacidad para la adivinación."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Sota de Copas + Tres de Copas.",
+      "significado": "Embarazo seguro."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Sota de copas + caballo de Copas.",
+      "significado": "Noticias de un amor deseado."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Sota de Copas + Rey de Copas.",
+      "significado": "Petición de matrimonio o esposo."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Sota de Copas + Rey de Oros.",
+      "significado": "Un hombre rico pedirá la mano de una joven casadera."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Sota de Copas + Siete de Bastos.",
+      "significado": "Esposa o compañera muy trabajadora."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Sota de Copas + Cuatro de Espadas.",
+      "significado": "Mujer con problemas en la sexualidad."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Sota de Copas + Cuatro de Espadas.",
+      "significado": "Sota de Copas con otra Sota."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Sota de Copas + Cuatro de Espadas.",
+      "significado": "Habladurías, críticas."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Caballo de Copas + Seis de Copas.",
+      "significado": "Encuentro con un amor del pasado."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Caballo de Copas + Siete de Copas.",
+      "significado": "Flechazo amor sincero."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Caballero de Copas + Siete de Oros + As de oros.",
+      "significado": "Amor, dinero, buen vivir, lujo."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Caballero de Copas + Dos de Espadas + Dos de Copas.",
+      "significado": "Exceso en la bebida."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Caballero de Copas + Cuatro de Espadas.",
+      "significado": "Desilusión amorosa, decepción."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Caballero de Copas + Caballero de Espadas.",
+      "significado": "Herida de amor."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Caballero de Copas + Siete de Bastos.",
+      "significado": "Amoríos y flirteos en el trabajo."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Rey de Copas + As de oros.",
+      "significado": "Cobro importante de dinero."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Rey de Copas +  Rey de espadas+ As de Espadas.",
+      "significado": "Hombre que enviuda."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Rey de Copas + Rey de Espadas.",
+      "significado": "Hombre que está viudo o divorciado."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Rey de Copas + Rey de Espadas + Caballo de Espadas + Cuatro de Espadas.",
+      "significado": "Separación matrimonial."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Rey de Copas + As de Bastos.",
+      "significado": "Reconocimiento o ascenso laboral para el cabeza de familia."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Rey de Copas + Rey de Bastos.",
+      "significado": "Propuesta de negocio, sociedad."
+    },
+    {
+      "palo_origen": "copas",
+      "combinacion": "Caballo de Copas + Sota de Oros.",
+      "significado": "Relaciones casquivanas."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Dos de oros.",
+      "significado": "Información económica importante, fraude  que se evita."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Dos de Copas.",
+      "significado": "Duda de que confirma,  problema que se evita."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Dos de espadas.",
+      "significado": "Eliminación de un socio, pragmatismo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Dos de Bastos.",
+      "significado": "Buenas noticias, Sociedad,  Idea que fructifica."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Tres de oros.",
+      "significado": "padrinazgo, obligación de hacer regalos o de quedar bien con los demás,  presunción."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos+ Tres de Copas",
+      "significado": "compromiso, dote, fiesta, nacimiento de un hijo varón."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Tres de Espadas",
+      "significado": "salvación milagrosa de un ataque o accidente, intervención quirúrgica con éxito."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Cuatro de Bastos",
+      "significado": "reunión con antiguos amigos,  reconciliación de socios."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Cuatro de espadas.",
+      "significado": "Salida del hospital, curación acelerada."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Cuatro de Oros",
+      "significado": "ambiciones e intereses desmesurados que triunfan momentáneamente."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de bastos + Cinco de bastos",
+      "significado": "acuerdo, apoyo de los compañeros"
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Cinco de Espadas",
+      "significado": "alguien pierde para que el consultante gane."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Cinco Copas.",
+      "significado": "Conquista de un derecho o un ideal."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de bastos + Cinco de Oros",
+      "significado": "situación precaria que se remedia."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Seis de Bastos",
+      "significado": "triunfo de la propia razón, salir airoso de una discusión"
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Seis de Copas",
+      "significado": "cambio de actitud frente a la vida, salud que se recupera."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Seis de Oros",
+      "significado": "obra benéfica,  pensión o subsidio que se obtiene."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Siete de Bastos",
+      "significado": "cambio positivo, promesas cumplidas."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Siete de Espadas",
+      "significado": "estrategia, enemigos que quedan al descubierto, toma de conciencia."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Siete de Copas",
+      "significado": "sacrificio que da resultados positivos, acto de amor humanitario."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Siete de Oros",
+      "significado": "préstamo inesperado, ayuda económica, desprendimiento, agradecimiento."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Sota de Basto",
+      "significado": "exámenes aprobados, triunfo en la juventud, éxito con el sexo opuesto."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Sota de Espadas",
+      "significado": "situación irregular que se descubre y que se resuelve en favor del consultante"
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Sota de Copas",
+      "significado": "agradable sorpresa, buen servicio, nobles sentimientos, flirteos amorosos en el lugar de trabajo"
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Sota de Oros",
+      "significado": "pequeña inversión, consejo práctico, jefe o socio joven y ambicioso, flirteos muy comprometidos y retos de amor en el trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos+ Caballo de Bastos",
+      "significado": "viaje productivo, viaje de estudios, noticias de trabajo extraordinarias"
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos+ Caballo de Espadas",
+      "significado": "persecución que termina, feliz regreso, liberación"
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos+ Caballo de Copas",
+      "significado": "notificaciones, visitantes que traen buenas noticias o buena suerte."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos+ Caballo de Oros",
+      "significado": "vacaciones, gastos desmesurados en viajes; ascenso y remuneración laboral, dependiendo del número de oro, así será el"
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos+ Caballo de Oros",
+      "significado": "ascenso económico; el mayor es el as y las figuras no cuentan."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Rey de Bastos",
+      "significado": "triunfo empresarial seguro."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Rey de Espadas",
+      "significado": "pleito, enfrentamiento con un enemigo poderoso"
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Rey de Copas",
+      "significado": "ofrecimiento de empleo por simpatía o recomendación familiar."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "As de Bastos + Rey de Oros",
+      "significado": "arduo trabajo que reporta ganancias que favorecen más a los socios que al consultante"
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Dos de Bastos + Siete de Bastos + Dos de Oros.",
+      "significado": "Exceso de trabajo y muy poco remunerado."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Dos de Bastos + Siete de Bastos + As de Oros.",
+      "significado": "Mucho trabajo y muy bien remunerado."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Dos de Bastos + Siete de Bastos + As de Bastos + Rey de Oros",
+      "significado": "excelentes trabajos, buenas relaciones públicas, reconocimientos, honores."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Dos de Bastos + Cinco de Espadas.",
+      "significado": "Trabajo nada gratificante y mal pagado."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Dos de Bastos + Caballo de Espadas + Cuatro de espadas.",
+      "significado": "Peligro en el lugar de trabajo, accidente, enfriamientos, contagios."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Tres de Bastos + As de Bastos.",
+      "significado": "Importante ascenso laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Tres de Bastos + As de bastos + As de oros.",
+      "significado": "Importante ascenso laboral y económico."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Tres  de Bastos + Cuatro de Bastos.",
+      "significado": "Se termina las dudas o preocupaciones a nivel laboral, todo se afianza y aclara."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Tres de Bastos + Rey de Bastos + Rey de Oros.",
+      "significado": "Buena oferta laboral para un negocio en sociedad."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Tres de Bastos + Rey de Oros + Rey de Espadas.",
+      "significado": "Oferta laboral para formar sociedad de la que debemos desconfiar."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Tres de Bastos + Cinco de Espadas.",
+      "significado": "Obstáculos y envidias a nivel laboral, proyectos que se truncan."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cuatro de Bastos + As de Bastos.",
+      "significado": "Seguridad y firmeza laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cuatro de Bastos + As de bastos + As de oros + Rey de bastos.",
+      "significado": "Poder, mando riqueza, autoridad, firmeza."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cuatro de Bastos + Rey de bastos.",
+      "significado": "Propuesta de un trabajo de larga duración."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cuatro de Bastos + Tres de espadas.",
+      "significado": "Disgustos y mentiras en el entorno laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cuatro de Bastos + Sota de espadas.",
+      "significado": "Compañero o compañera cercano que traiciona en el trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cinco de Bastos + Cuatro de bastos.",
+      "significado": "Fin de inquietud por el trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cinco de Bastos + Seis de bastos.",
+      "significado": "Comienzo lento pero firme de un trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cinco de Bastos + Bey de bastos + As de bastos.",
+      "significado": "Incorporación muy exitosa a un  nuevo trabajo tras la ayuda de una buena influencia."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cinco de Bastos + Cuatro de Espadas.",
+      "significado": "Fin de un contrato laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cinco de Bastos + Seis de Espadas.",
+      "significado": "Despido de un trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cinco de Bastos + Nueve de Espadas.",
+      "significado": "Depresión fuerte por inactividad laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Cinco de Bastos + Sota de Espadas + Siete de Espadas.",
+      "significado": "Fuerte crisis por un trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Seis de Bastos + Caballo de Bastos.",
+      "significado": "Noticias de fuera de tipo laboral, posibles traslados."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Seis de Bastos + Caballo de Bastos + Caballo de Oros + Caballo de Copas.",
+      "significado": "Traslado seguro fuera de la provincia para trabajar y vivir, cambio de casa por trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Seis de Bastos + Siete de Oros.",
+      "significado": "Muchos viajes y dinero por buenos trabajos."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Seis de Bastos + Caballo de Espadas + Tres de Espadas.",
+      "significado": "Accidente en vehículo por trabajo en horario laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Ocho de Bastos + Cuatro de Bastos.",
+      "significado": "Trabajo muy estable y seguro, firmeza laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Ocho de Bastos + Cuatro de Bastos+ Rey de Oros.",
+      "significado": "Las personas de  mayor mando tienen puesta la confianza en ti."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Ocho de Bastos + As de Espadas + Ocho de Oros.",
+      "significado": "El poder más importante está de su lado, procure no alardear, manténgase en la sombra."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Ocho de Bastos + Seis de Espadas.",
+      "significado": "Disgustos fuertes e inesperados en el lugar de trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Nueve de Bastos + Rey de Bastos.",
+      "significado": "Presentación positiva de un futuro socio o nueva sociedad."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Nueve de Bastos + Ocho de Oros+ As de Oros.",
+      "significado": "Excelentes socios, cooperadores, buen equipo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Nueve de Bastos + Sota de Oros+ Cuatro de Copas.",
+      "significado": "Los vicios de algún socio traerán fuertes disgustos al lugar de trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Nueve de Bastos +  Rey de Oros.",
+      "significado": "La banca y las financieras nos favorecen para crear un negocio, crédito seguro."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Nueve de Bastos + Nueve de Espadas.",
+      "significado": "Presiones psicológicas por parte de los colaboradores de  manera negativa."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Nueve de Bastos + Rey de Espadas + Cuatro de Espadas.",
+      "significado": "Fuertes disgustos de tipo legal con los socios o socio."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Sota de bastos + As de Bastos.",
+      "significado": "Mujer muy responsable en el trabajo, autoridad."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Sota de Bastos + Nueve de Bastos+ Tres de Espadas.",
+      "significado": "Ladrón en el entorno laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Sota de Bastos + Sota de Oros+ Sota de Espadas.",
+      "significado": "Difamaciones y calumnias entre mujeres."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Sota de Bastos + Caballo de Copas.",
+      "significado": "Comienzo de una relación amorosa."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Sota de Bastos + Rey de Copas.",
+      "significado": "Hombre ya comprometido que desea los favores de una joven mujer."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Sota de Bastos + Nueve de Espadas+ Tres de Oros.",
+      "significado": "Mujer obsesionada por el dinero."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Caballo de Bastos + As de Bastos.",
+      "significado": "Noticias por carta, teléfono de un posible ascenso laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Caballo de Bastos + Seis de Bastos.",
+      "significado": "Varios viajes y comunicaciones por trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Caballo de Bastos + As de Oros.",
+      "significado": "Noticias o comunicación, sorpresa de un cobro de dinero extra por el trabajo."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Caballo de Bastos + Nueve de Espadas.",
+      "significado": "Espera desesperada de  noticias laborales que no se consuman."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Caballo de Bastos + Caballo de Espadas + Rey de Espadas.",
+      "significado": "Accidente laboral con el vehículo o en horario laboral con papeles legales de por medio."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Rey de Bastos + Sota de Basto.",
+      "significado": "Buen matrimonio."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Rey de Bastos + Rey de Oros.",
+      "significado": "Sociedad importante de una empresa que crecerá, buen equilibrio entre estos dos reyes."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Rey de Bastos + As de Espadas+ Dos de Espadas.",
+      "significado": "Castigo en el trabajo por uno hacer bien las cosas."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Rey de Bastos + Sota de Espadas.",
+      "significado": "Mujer malvada que buscará su interés a costa del esposo o compañero."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Rey de Bastos + Caballo de Espadas + Cuatro de Espadas.",
+      "significado": "Enfermedad laboral."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Rey de Bastos + Rey de Espadas + Tres de Espadas.",
+      "significado": "Socio o colaborador que traiciona."
+    },
+    {
+      "palo_origen": "bastos",
+      "combinacion": "Rey de Bastos  + Caballo de Espadas + Tres de Espadas.",
+      "significado": "Disgustos fuertes en la empresa con algún trabajador."
+    }
+  ]
+}
