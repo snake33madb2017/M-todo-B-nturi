@@ -7,6 +7,9 @@ const redsys = require('./redsys');
 const webpush = require('web-push');
 const fetch = require('node-fetch');
 const bcrypt = require('bcrypt');
+const { OAuth2Client } = require('google-auth-library');
+
+const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID || 'dummy-client-id');
 
 // Configuración de web-push (usar llaves de process.env en prod)
 const vapidPublicKey = process.env.VAPID_PUBLIC_KEY || 'BEUPFhphS_YDpLxWb18rsXx7L4aRrS2uAmlz5enpF0rHHJamSWq3G9cRy1sLAN3w186Egtavgp85cmiIGFkFTYw';
@@ -76,6 +79,48 @@ app.post('/api/login', (req, res) => {
         const token = jwt.sign({ id: user.id, email: user.email, isPremium: user.isPremium, role: user.role }, JWT_SECRET);
         res.json({ token, user: { id: user.id, email: user.email, isPremium: user.isPremium, role: user.role } });
     });
+});
+
+app.post('/api/auth/google', async (req, res) => {
+    const { credential } = req.body;
+    if (!credential) return res.status(400).json({ error: 'Token de Google requerido' });
+
+    try {
+        const ticket = await googleClient.verifyIdToken({
+            idToken: credential,
+            audience: process.env.GOOGLE_CLIENT_ID,
+        });
+        const payload = ticket.getPayload();
+        const email = payload.email;
+
+        // Verificar si el usuario ya existe
+        db.get('SELECT * FROM users WHERE email = ?', [email], (err, user) => {
+            if (err) return res.status(500).json({ error: 'Error del servidor' });
+
+            if (user) {
+                // Usuario existe, iniciar sesión
+                const token = jwt.sign({ id: user.id, email: user.email, isPremium: user.isPremium, role: user.role }, JWT_SECRET);
+                return res.json({ token, user: { id: user.id, email: user.email, isPremium: user.isPremium, role: user.role } });
+            } else {
+                // Usuario no existe, registrar automáticamente
+                // Generamos una contraseña aleatoria compleja ya que usan Google para entrar
+                const randomPassword = require('crypto').randomBytes(16).toString('hex');
+                bcrypt.hash(randomPassword, 10, (err, hashedPassword) => {
+                    if (err) return res.status(500).json({ error: 'Error creando usuario' });
+                    
+                    db.run('INSERT INTO users (email, password) VALUES (?, ?)', [email, hashedPassword], function(err) {
+                        if (err) return res.status(500).json({ error: 'Error del servidor al registrar' });
+                        
+                        const token = jwt.sign({ id: this.lastID, email, isPremium: false, role: 'user' }, JWT_SECRET);
+                        res.json({ token, user: { id: this.lastID, email, isPremium: false, role: 'user' } });
+                    });
+                });
+            }
+        });
+    } catch (err) {
+        console.error('Error verificando token de Google:', err);
+        res.status(401).json({ error: 'Token de Google inválido' });
+    }
 });
 
 // Middleware para proteger rutas
@@ -212,8 +257,14 @@ app.post('/api/create-payment', authenticateToken, (req, res) => {
     
     // Guardar el orderId en BD temporalmente si queremos trazarlo (simplificado aquí)
     
+    // Detectamos si estamos en Producción por la URL base o NODE_ENV
+    const isProduction = baseUrl.includes('onrender.com') || process.env.NODE_ENV === 'production';
+    const redsysEndpoint = isProduction 
+        ? 'https://sis.redsys.es/sis/realizarPago' 
+        : 'https://sis-t.redsys.es:25443/sis/realizarPago';
+    
     res.json({
-        url: 'https://sis-t.redsys.es:25443/sis/realizarPago', // URL de PRUEBAS
+        url: redsysEndpoint,
         params: paymentData
     });
 });

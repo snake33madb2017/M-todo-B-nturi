@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { GoogleLogin } from '@react-oauth/google'
 
 const GoogleIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,6 +44,26 @@ export default function AuthModal({ onClose, onLoginSuccess }) {
     }
   }
 
+  const handleGoogleSuccess = async (credentialResponse) => {
+    setError('Conectando con Google...')
+    try {
+      const res = await fetch('/api/auth/google', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ credential: credentialResponse.credential })
+      })
+      const data = await res.json()
+      if (res.ok) {
+        localStorage.setItem('benturi_token', data.token)
+        onLoginSuccess(data.user, data.token)
+      } else {
+        setError(data.error || 'Error en Google Login')
+      }
+    } catch (err) {
+      setError('Error de red al conectar con el servidor')
+    }
+  }
+
   const handleSocialLogin = (provider) => {
     setError(`Conectando con ${provider}...`)
     setTimeout(() => {
@@ -56,9 +77,14 @@ export default function AuthModal({ onClose, onLoginSuccess }) {
         <h2>{isLogin ? 'INICIAR SESIÓN' : 'CREAR CUENTA'}</h2>
         {error && <p style={{color:'red', fontSize:'12px', marginBottom:'12px'}}>{error}</p>}
         
-        <button className="btn-social" onClick={() => handleSocialLogin('Google')} type="button">
-          <GoogleIcon /> Continuar con Google
-        </button>
+        <div style={{display:'flex', justifyContent:'center', marginBottom: '16px'}}>
+          <GoogleLogin 
+            onSuccess={handleGoogleSuccess} 
+            onError={() => setError('Fallo al conectar con Google')}
+            text={isLogin ? "signin_with" : "signup_with"}
+            theme="filled_black"
+          />
+        </div>
         <button className="btn-social" onClick={() => handleSocialLogin('Apple')} type="button">
           <AppleIcon /> Continuar con Apple
         </button>

@@ -43,20 +43,7 @@ export default function App() {
     };
   }, []);
 
-  // Chequear estado de pago al volver de Redsys
-  useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('pago') === 'ok') {
-      alert("¡PAGO COMPLETADO CON ÉXITO! Ya tienes acceso premium.")
-      window.history.replaceState({}, document.title, "/")
-    } else if (urlParams.get('pago') === 'ko') {
-      alert("Error en el pago o cancelado por el usuario.")
-      window.history.replaceState({}, document.title, "/")
-    }
-  }, [])
-
-  // Validar token con el backend al iniciar
-  useEffect(() => {
+  const fetchUser = () => {
     if (token) {
       fetch(`/api/me`, {
         headers: { 'Authorization': `Bearer ${token}` }
@@ -72,6 +59,25 @@ export default function App() {
         setUser(null)
       })
     }
+  }
+
+  // Chequear estado de pago al volver de Redsys
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('pago') === 'ok') {
+      alert("¡PAGO COMPLETADO CON ÉXITO! Ya tienes acceso premium.")
+      window.history.replaceState({}, document.title, "/")
+      // Esperamos 1 segundo para dar tiempo al Webhook de Redsys y refrescamos el usuario
+      setTimeout(() => fetchUser(), 1000)
+    } else if (urlParams.get('pago') === 'ko') {
+      alert("Error en el pago o cancelado por el usuario.")
+      window.history.replaceState({}, document.title, "/")
+    }
+  }, [token])
+
+  // Validar token con el backend al iniciar
+  useEffect(() => {
+    fetchUser()
   }, [token])
 
   const handleLoginSuccess = (userData, jwtToken) => {
