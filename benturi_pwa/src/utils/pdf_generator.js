@@ -1,10 +1,11 @@
 // Módulo de generación de PDF para PWA Matriz de Vectores
-// Requiere html2pdf.js y marked.js importados en tu proyecto
+// Requiere marked.js importado en tu proyecto (html2pdf ya no es necesario)
 
 /**
- * Convierte el Markdown retornado por el LLM en un PDF profesional con diseño oscuro/futurista.
+ * Convierte el Markdown retornado por el LLM y utiliza el diálogo de impresión
+ * nativo del dispositivo para generar el PDF. (Evita cuelgues en móviles)
  * @param {string} markdownText - Respuesta en Markdown generada por el cerebro (LLM)
- * @param {string} filename - Nombre opcional para el archivo descargado
+ * @param {string} filename - Nombre opcional
  */
 export async function generarPDFDesdeMarkdown(markdownText, filename = null) {
   if (typeof window.marked === 'undefined') {
@@ -12,75 +13,94 @@ export async function generarPDFDesdeMarkdown(markdownText, filename = null) {
     alert('Error: marked.js no cargado');
     return;
   }
-  if (typeof window.html2pdf === 'undefined') {
-    console.error('La librería html2pdf.js no está cargada en window.');
-    alert('Error: html2pdf no cargado');
-    return;
-  }
 
-  console.log("Generando PDF desde Markdown:", markdownText);
+  console.log("Abriendo diálogo nativo para generar PDF...");
+  
   // 1. Convertir Markdown a HTML
   const rawHtml = window.marked.parse(markdownText || 'No hay contenido para mostrar');
 
-  // 2. Crear contenedor con estilos sencillos
-  const container = document.createElement('div');
-  container.className = 'pdf-export-container';
-  // En lugar de ocultarlo con left:-9999 (que rompe canvas), lo ponemos atrás y lo hacemos opaco para el canvas
-  container.style.position = 'absolute';
-  container.style.top = '0';
-  container.style.left = '0';
-  container.style.width = '800px'; 
-  container.style.zIndex = '-9999'; // Queda detrás de la app visible
-  
-  container.innerHTML = `
-    <style>
-      .pdf-export-container {
-        padding: 40px;
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        background-color: #ffffff;
-        color: #000000;
-        font-size: 14px;
-        line-height: 1.6;
-      }
-      .pdf-export-container h1, .pdf-export-container h2, .pdf-export-container h3, .pdf-export-container h4, .pdf-export-container h5, .pdf-export-container u {
-        color: #000000;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        font-weight: bold;
-      }
-      .pdf-export-container h1 { font-size: 22px; border-bottom: 2px solid #000; padding-bottom: 5px; }
-      .pdf-export-container h2 { font-size: 18px; border-bottom: 1px solid #ccc; padding-bottom: 3px; }
-      .pdf-export-container p { margin-bottom: 15px; color: #000000; }
-      .pdf-export-container strong { font-weight: bold; color: #000000; }
-      .pdf-export-container ul { list-style-type: disc; padding-left: 20px; margin-bottom: 15px; }
-      .pdf-export-container li { margin-bottom: 5px; color: #000000; }
-    </style>
-    <div>
+  // 2. Construir el documento HTML completo para impresión
+  const htmlContent = `
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>${filename || 'Lectura_Benturi'}</title>
+      <style>
+        /* Estilos optimizados para impresión (PDF) */
+        @page { margin: 20mm; }
+        body {
+          font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          background-color: #ffffff;
+          color: #000000;
+          font-size: 14px;
+          line-height: 1.6;
+          padding: 0;
+          margin: 0;
+        }
+        h1, h2, h3, h4, h5, u { 
+          color: #000000; 
+          margin-top: 20px; 
+          margin-bottom: 10px; 
+          font-weight: bold; 
+        }
+        h1 { font-size: 22px; border-bottom: 2px solid #000; padding-bottom: 5px; }
+        h2 { font-size: 18px; border-bottom: 1px solid #ccc; padding-bottom: 3px; }
+        p { margin-bottom: 15px; }
+        strong { font-weight: bold; }
+        ul { list-style-type: disc; padding-left: 20px; margin-bottom: 15px; }
+        li { margin-bottom: 5px; }
+        /* Forzar colores en navegadores webkit al imprimir */
+        @media print {
+          body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        }
+      </style>
+    </head>
+    <body>
       ${rawHtml}
-    </div>
+    </body>
+    </html>
   `;
 
-  document.body.appendChild(container);
+  // 3. Crear un iframe oculto para invocar el sistema de impresión sin salir de la app
+  const iframe = document.createElement('iframe');
+  
+  // Lo ocultamos de la vista del usuario
+  iframe.style.position = 'fixed';
+  iframe.style.right = '0';
+  iframe.style.bottom = '0';
+  iframe.style.width = '0';
+  iframe.style.height = '0';
+  iframe.style.border = 'none';
+  
+  document.body.appendChild(iframe);
 
-  const pdfName = filename || `Proyeccion_Futuro_${Date.now()}.pdf`;
+  // Escribimos el contenido HTML en el iframe
+  const iframeDoc = iframe.contentWindow.document;
+  iframeDoc.open();
+  iframeDoc.write(htmlContent);
+  iframeDoc.close();
 
-  // 3. Opciones de exportación PDF
-  const opt = {
-    margin: 15,
-    filename: pdfName,
-    image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2, useCORS: true, windowWidth: 800, scrollY: 0, scrollX: 0 },
-    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+  // 4. Invocamos window.print() nativo cuando el contenido termine de cargar
+  iframe.onload = () => {
+    // Un pequeño tiempo para asegurar que el navegador pinta el DOM del iframe
+    setTimeout(() => {
+      try {
+        iframe.contentWindow.focus();
+        iframe.contentWindow.print();
+      } catch (e) {
+        console.error("Error al intentar abrir el diálogo de impresión:", e);
+        alert("Tu dispositivo ha bloqueado la generación del PDF. Intenta hacerlo manualmente.");
+      } finally {
+        // Limpiamos el iframe del DOM después de unos segundos
+        // Damos margen suficiente para que el diálogo de impresión termine
+        setTimeout(() => {
+          if (document.body.contains(iframe)) {
+            document.body.removeChild(iframe);
+          }
+        }, 30000); 
+      }
+    }, 250);
   };
-
-  // 4. Generar y descargar
-  try {
-    await window.html2pdf().set(opt).from(container).save();
-    console.log("PDF generado con éxito:", pdfName);
-  } catch (error) {
-    console.error("Error al generar el PDF:", error);
-  } finally {
-    // Remover el contenedor después de generar el PDF
-    document.body.removeChild(container);
-  }
 }
