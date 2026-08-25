@@ -1,13 +1,15 @@
 import kbData from '../data/base_conocimiento_cartas.json';
+import detData from '../data/base_determinista_cartas.json';
 
 const normalizeCard = (name) => name ? name.toLowerCase().replace(/ de /g, ' ').trim() : '';
 
 const getCardMeaning = (cardName) => {
     if (!cardName) return null;
-    const norm = normalizeCard(cardName);
-    const found = kbData.significado_cartas?.find(c => normalizeCard(c.carta) === norm);
-    if (!found) return `Significado no encontrado para ${cardName}`;
-    return `${found.acepcion_principal}. Matices: ${found.acepciones_secundarias}`;
+    const keys = Object.keys(detData.cartas);
+    const foundKey = keys.find(k => normalizeCard(k) === normalizeCard(cardName));
+    if (!foundKey) return `Significado no encontrado para ${cardName}`;
+    const info = detData.cartas[foundKey];
+    return `\n\n**Amor y Relaciones**: ${info.Amor || 'N/A'}\n\n**Trabajo y Profesión**: ${info.Trabajo || 'N/A'}\n\n**Dinero y Finanzas**: ${info.Dinero || 'N/A'}\n\n**Salud y Bienestar**: ${info.Salud || 'N/A'}\n\n**Evolución Personal y Decisiones**: ${info.Evolucion || 'N/A'}\n`;
 };
 
 const checkCombo = (c1, c2) => {

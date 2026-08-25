@@ -344,11 +344,13 @@ app.post('/api/generate-report', async (req, res) => {
         const normalizeCard = (name) => name ? name.toLowerCase().replace(/ de /g, ' ').trim() : '';
         
         const getDeterministicInfo = (cardName) => {
+            console.log("DEBUG getDeterministicInfo recibió:", cardName);
             if (!cardName) return "Sin carta";
             
             // Buscar coincidencia exacta o similar en las keys
             const keys = Object.keys(det.cartas);
             const foundKey = keys.find(k => normalizeCard(k) === normalizeCard(cardName));
+            console.log("DEBUG foundKey:", foundKey, "para cardName:", cardName, "normalized:", normalizeCard(cardName));
             
             if (foundKey) {
                 const info = det.cartas[foundKey];

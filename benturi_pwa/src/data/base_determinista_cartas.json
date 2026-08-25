@@ -1,0 +1,356 @@
+{
+  "cartas": {
+    "CONSULTA PREVIA DE RESTRICCIÓN NUMÉRICA": {},
+    "LA ESTRUCTURA DEBE SER": {},
+    "SIGNIFICADO DETERMINISTA DE CADA VECTOR CARTA": {},
+    "AS DE OROS": {
+      "Amor": "Inicio de una relación sólida, duradera y basada en la seguridad mutua o en valores compartidos; estabilidad afectiva tangible.",
+      "Trabajo": "Contrato laboral muy ventajoso, firma de acuerdos profesionales de gran peso, o consolidación de un proyecto laboral clave.",
+      "Dinero": "Máxima fortuna material, entrada importante de dinero, riqueza tangible y comienzos económicos sumamente prósperos.",
+      "Salud": "Recuperación notable de la energía física, sensación de bienestar corporal pleno y fortaleza orgánica.",
+      "Evolucion": "Decisión muy acertada que planta las bases firmes para un futuro próspero y seguro."
+    },
+    "DOS DE OROS": {
+      "Amor": "Altibajos en la pareja por cuestiones prácticas o económicas; necesidad de hacer malabares para equilibrar el tiempo de pareja con otras responsabilidades.",
+      "Trabajo": "Gestión simultánea de varios proyectos, adaptabilidad necesaria ante cambios repentinos en el entorno laboral.",
+      "Dinero": "Balance financiero delicado, malabares con el presupuesto, necesidad de administrar con prudencia las entradas y salidas de dinero.",
+      "Salud": "Oscilaciones en el estado de ánimo o en los niveles de energía debido al estrés por la gestión de múltiples asuntos.",
+      "Evolucion": "Momento de sopesar opciones con flexibilidad; la clave es adaptarse al movimiento sin perder el equilibrio."
+    },
+    "TRES DE OROS": {
+      "Amor": "Construcción paso a paso de un vínculo afectivo; colaboración y entendimiento armonioso dentro de la familia o la pareja.",
+      "Trabajo": "Reconocimiento al esfuerzo, trabajo en equipo excelente, consolidación de un oficio o maestría profesional reconocida por otros.",
+      "Dinero": "Ingresos estables derivados del trabajo bien hecho, cobros justos por servicios prestados y retribución acorde al esfuerzo.",
+      "Salud": "Progreso favorable en tratamientos de rehabilitación o mejora física gracias a la constancia y la disciplina.",
+      "Evolucion": "Decisión de apostar por el aprendizaje continuo y la cooperación para avanzar hacia metas superiores."
+    },
+    "CUATRO DE OROS": {
+      "Amor": "Apego excesivo o celos en la relación; miedo a perder a la pareja o reticencia a abrir el corazón por temor a salir lastimado.",
+      "Trabajo": "Rigidez en el puesto de trabajo, conservadurismo extremo ante los cambios, defensa a ultranza de la posición adquirida.",
+      "Dinero": "Ahorro estricto, acumulación y retención de bienes; estabilidad asegurada pero con riesgo de estancamiento por no saber arriesgar.",
+      "Salud": "Tendencia a retener tensiones físicas; necesidad de soltar cargas acumuladas y relajar la rigidez corporal.",
+      "Evolucion": "Bloqueo por miedo a la pérdida; decisión de aferrarse a lo conocido negando la evolución natural."
+    },
+    "CINCO DE OROS": {
+      "Amor": "Sentimiento de soledad, abandono o exclusión dentro del plano afectivo; crisis profunda o distanciamiento doloroso.",
+      "Trabajo": "Desempleo, pérdida de estatus laboral, crisis en el negocio o sensación de estar desprotegido en el ámbito profesional.",
+      "Dinero": "Pérdidas económicas severas, escasez, bache financiero crítico que exige austeridad y búsqueda de ayuda externa.",
+      "Salud": "Bajón anímico importante, fatiga crónica o vulnerabilidad física ante situaciones de estrés prolongado.",
+      "Evolucion": "Aprendizaje a través de la adversidad; momento de reestructurar los valores vitales tras un golpe material o emocional."
+    },
+    "SEIS DE OROS": {
+      "Amor": "Generosidad y reciprocidad en la pareja; equilibrio donde ambos dan y reciben afecto en la misma medida justa.",
+      "Trabajo": "Ayudas laborales, subvenciones concedidas, o relaciones profesionales basadas en el apoyo mutuo y la equidad.",
+      "Dinero": "Préstamos concedidos o recibidos con éxito, ayudas económicas, donaciones o reparto justo de recursos y beneficios.",
+      "Salud": "Recuperación del equilibrio físico gracias a la ayuda de terapias, especialistas o un descanso bien administrado.",
+      "Evolucion": "Elección consciente de ser generoso o de aceptar la ayuda que otros nos ofrecen sin orgullo desmedido."
+    },
+    "SIETE DE OROS": {
+      "Amor": "Espera paciente en el amor; evaluar si el esfuerzo invertido en una relación está dando los frutos esperados o si conviene replantearla.",
+      "Trabajo": "Evaluación de proyectos a medio y largo plazo; pausa reflexiva para valorar la rentabilidad del trabajo realizado hasta el momento.",
+      "Dinero": "Inversiones a largo plazo que exigen paciencia; el dinero está invertido pero los beneficios aún tardarán en materializarse por completo.",
+      "Salud": "Proceso lento de mejora; necesidad de tener paciencia con el propio cuerpo y no precipitar los tiempos de curación.",
+      "Evolucion": "Valoración crítica de los resultados obtenidos; decidir si se continúa por el mismo camino o se cambia de estrategia."
+    },
+    "OCHO DE OROS": {
+      "Amor": "Dedicación constante y detallista hacia la pareja; pulir los pequeños detalles de la convivencia diaria con esmero.",
+      "Trabajo": "Trabajo metódico, especialización técnica, aprendizaje de un oficio con maestría y enfoque absoluto en la tarea productiva.",
+      "Dinero": "Ingresos constantes fruto directo del trabajo duro y del perfeccionamiento de habilidades profesionales o comerciales.",
+      "Salud": "Disciplina rigurosa en rutinas de ejercicio, constancia en hábitos saludables y cuidado meticuloso del cuerpo.",
+      "Evolucion": "Decisión de centrarse en el perfeccionamiento personal, dedicando tiempo y esfuerzo a construir un futuro sólido."
+    },
+    "NUEVE DE OROS": {
+      "Amor": "Plenitud afectiva vivida desde la independencia; disfrutar del amor en pareja sin ataduras asfixiantes, valorando el espacio propio.",
+      "Trabajo": "Éxito profesional independiente, reconocimiento a la trayectoria, autonomía laboral y satisfacción con los logros alcanzados.",
+      "Dinero": "Independencia financiera absoluta, disfrute de los bienes materiales y del lujo conseguido con el esfuerzo propio; bonanza económica.",
+      "Salud": "Excelente estado de vitalidad, disfrute físico del entorno y bienestar general respaldado por la tranquilidad material.",
+      "Evolucion": "Cosecha de los frutos del pasado; decisión de disfrutar del merecido descanso y de la propia autonomía vital."
+    },
+    "SOTA DE OROS": {
+      "Amor": "Inicios afectivos llenos de buenas intenciones, sinceridad y propuestas sentimentales honestas aunque aún por madurar.",
+      "Trabajo": "Oportunidad de empleo junior, propuestas de contratos iniciales, estudiante aplicado o becario que se incorpora a un equipo.",
+      "Dinero": "Pequeñas entradas de dinero, noticias favorables relacionadas con pagos pendientes, becas o presupuestos iniciales.",
+      "Salud": "Vitalidad juvenil, interés por iniciarse en una disciplina deportiva o en un plan de nutrición saludable.",
+      "Evolucion": "Actitud abierta al aprendizaje; decisión de recibir consejos sabios o formarse en nuevos conocimientos prácticos."
+    },
+    "CABALLO DE OROS": {
+      "Amor": "Relación estable que avanza con paso firme pero pausado; lealtad y compromiso cimentados en la rutina segura y predecible.",
+      "Trabajo": "Avance laboral lento pero completamente seguro; transacciones comerciales firmes, especialmente ligadas a bienes raíces o activos sólidos.",
+      "Dinero": "Movimiento prudente de capitales, inversiones inmobiliarias seguras y gestión económica conservadora pero muy efectiva.",
+      "Salud": "Salud estable y robusta, aunque con tendencia a la inercia; necesidad de evitar el sedentarismo excesivo.",
+      "Evolucion": "Decisión de avanzar con prudencia y realismo, pisando sobre seguro antes de dar cualquier paso importante."
+    },
+    "REY DE OROS": {
+      "Amor": "Pareja protectora y proveedora; estabilidad total en el hogar, donde el compromiso se respalda con hechos materiales y solidez.",
+      "Trabajo": "Máxima autoridad en los negocios, empresario consolidado, mecenas o directivo con gran visión económica y capacidad de mando.",
+      "Dinero": "Riqueza consolidada, éxito rotundo en inversiones financieras y bienes raíces; dominio absoluto del plano material.",
+      "Salud": "Fortaleza física general; necesidad de vigilar los excesos derivados de una vida cómoda o de banquetes frecuentes.",
+      "Evolucion": "Decisión de gran peso empresarial o patrimonial; actuar con la autoridad y la madurez de quien domina su destino material."
+    },
+    "AS DE COPAS": {
+      "Amor": "Amor incondicional desbordante, flechazo profundo, inicio de una relación sumamente apasionada o renovación total de la pareja.",
+      "Trabajo": "Trabajo que se realiza con auténtica vocación y pasión; ambiente laboral lleno de compañaternismo y armonía genuina.",
+      "Dinero": "Bienestar económico que aporta tranquilidad emocional; el dinero se utiliza para disfrutar de la vida y ayudar a los seres queridos.",
+      "Salud": "Sanación emocional que repercute positivamente en el cuerpo; paz mental, alegría interior y alto nivel de energía vital.",
+      "Evolucion": "Decisión tomada desde el corazón y la intuición más pura, abriéndose plenamente a sentir y perdonar."
+    },
+    "DOS DE COPAS": {
+      "Amor": "Unión de almas, compromiso firme, pactos de pareja, reciprocidad absoluta, reconciliación y sintonía sentimental perfecta.",
+      "Trabajo": "Alianzas comerciales exitosas, contratos firmados con total sintonía entre socios, negociaciones basadas en la mutua confianza.",
+      "Dinero": "Acuerdos económicos beneficiosos para ambas partes; ganancias compartidas de manera justa y armoniosa.",
+      "Salud": "Bienestar compartido en pareja; recuperación física favorecida por un entorno afectivo de apoyo y cuidado mutuo.",
+      "Evolucion": "Decisión de unir fuerzas con otra persona, firmar pactos de entendimiento o resolver conflictos mediante el diálogo empático."
+    },
+    "TRES DE COPAS": {
+      "Amor": "Celebración del amor, reuniones familiares felices, momentos de gran complicidad social y alegría compartida con el entorno cercano.",
+      "Trabajo": "Éxito en equipo celebrado públicamente, buen clima laboral, eventos de empresa prósperos y colaboración muy fluida.",
+      "Dinero": "Gastos destinados a celebraciones, ocio o reuniones sociales; dinero que se comparte y se disfruta en buena compañía.",
+      "Salud": "Excelente estado anímico, vitalidad reforzada por el ocio saludable, la risa y el contacto enriquecedor con amigos y familia.",
+      "Evolucion": "Decisión de priorizar la vida social, la integración en el grupo y la celebración de los logros compartidos."
+    },
+    "CUATRO DE COPAS": {
+      "Amor": "Apatía en la pareja, aburrimiento, rechazo a nuevas muestras de afecto por estar instalado en la queja o en la nostalgia del pasado.",
+      "Trabajo": "Desmotivación laboral, insatisfacción con el puesto actual, rechazo a nuevas ofertas por desinterés o hastío.",
+      "Dinero": "Desinterés por la gestión económica o descontento con los ingresos actuales, desaprovechando oportunidades por apatía.",
+      "Salud": "Letargo físico, desgana, cansancio emocional que se refleja en falta de energía corporal y desmotivación general.",
+      "Evolucion": "Decisión de encerrarse en uno mismo; bloqueo mental por no saber valorar lo que se tiene enfrente."
+    },
+    "CINCO DE COPAS": {
+      "Amor": "Desamor, dolor por una ruptura sentimental, lamento profundo por lo que no funcionó, decepción y duelo afectivo.",
+      "Trabajo": "Frustración ante un proyecto fallido, pérdida de un empleo muy querido o lamento por expectativas profesionales no cumplidas.",
+      "Dinero": "Pérdidas económicas que generan angustia; lamento por malas inversiones pasadas sin mirar las opciones que aún quedan en pie.",
+      "Salud": "Somatización de la tristeza, depresión leve o bajón energético profundo derivado de una desilusión emocional.",
+      "Evolucion": "Decisión de regodearse en el pasado doloroso; necesidad urgente de superar el duelo para ver lo que aún es rescatable."
+    },
+    "SEIS DE COPAS": {
+      "Amor": "Nostalgia romántica, reencuentros con amores del pasado, relaciones inocentes, puras y basadas en el afecto sincero de siempre.",
+      "Trabajo": "Regreso a entornos laborales conocidos, rescate de proyectos antiguos que vuelven a cobrar vida o vocación arraigada desde la infancia.",
+      "Dinero": "Beneficios económicos procedentes del pasado, herencias familiares o resolución favorable de asuntos económicos antiguos.",
+      "Salud": "Bienestar asociado a la memoria corporal de épocas pasadas; recuperación de la energía gracias a la paz nostálgica.",
+      "Evolucion": "Decisión de mirar atrás con ternura, sanando heridas infantiles o retomando valores y vínculos de antaño."
+    },
+    "SIETE DE COPAS": {
+      "Amor": "Ilusiones irreales en el amor, idealización excesiva de la pareja, confusión sentimental ante múltiples opciones que distraen del compromiso real.",
+      "Trabajo": "Proyectos poco realistas, castillos en el aire profesionales, exceso de opciones laborales que confunden y paralizan la acción.",
+      "Dinero": "Cuidado con falsas promesas de enriquecimiento rápido o inversiones ilusorias; confusión en el manejo de las cuentas.",
+      "Salud": "Trastornos derivados de la ansiedad o del consumo de sustancias que nublan los sentidos; necesidad de claridad mental.",
+      "Evolucion": "Decisión confusa ante demasiadas alternativas; peligro de elegir fantasías en lugar de opciones tangibles y reales."
+    },
+    "OCHO DE COPAS": {
+      "Amor": "Abandono voluntario de una relación afectiva que ya no aporta crecimiento emocional, buscando una verdad sentimental más profunda.",
+      "Trabajo": "Renuncia voluntaria a un trabajo insatisfactorio para emprender un camino profesional más alineado con los valores personales.",
+      "Dinero": "Decisión de dejar ir fuentes de ingresos estables pero vacías de sentido, priorizando la realización personal sobre la acumulación.",
+      "Salud": "Desintoxicación física y mental; alejamiento voluntario de entornos tóxicos que perjudicaban la salud integral.",
+      "Evolucion": "Decisión valiente de cerrar una etapa insatisfactoria y marchar en busca de una evolución espiritual y emocional superior."
+    },
+    "NUEVE DE COPAS": {
+      "Amor": "El deseo cumplido en el amor; felicidad plena, satisfacción emocional absoluta y armonía perfecta en la vida afectiva.",
+      "Trabajo": "Máxima satisfacción con los logros profesionales alcanzados; el trabajo se convierte en una fuente inagotable de orgullo y dicha.",
+      "Dinero": "Bonanza económica que permite disfrutar de los placeres de la vida; satisfacción material y sensación de abundancia cumplida.",
+      "Salud": "Excelente salud y bienestar emocional; plenitud vital y disfrute absoluto del cuerpo y de los sentidos.",
+      "Evolucion": "Decisión de disfrutar del triunfo personal; el consultante alcanza un estado de gracia y realización íntima."
+    },
+    "SOTA DE COPAS": {
+      "Amor": "Declaración de amor sincera y tierna, mensajes románticos llenos de sensibilidad, enamoramiento puro y receptividad afectiva.",
+      "Trabajo": "Propuesta laboral creativa o artística, inicio de proyectos desde la inspiración y la sensibilidad, compañeros empáticos.",
+      "Dinero": "Pequeños ingresos o regalos inesperados que alegran el día; gestión del dinero intuitiva y sin grandes preocupaciones.",
+      "Salud": "Sensibilidad corporal aguda; necesidad de cuidar las emociones para evitar que afecten al bienestar físico general.",
+      "Evolucion": "Decisión guiada por la intuición infantil o artística; abrirse a recibir mensajes del inconsciente con el corazón abierto."
+    },
+    "CABALLO DE COPAS": {
+      "Amor": "Propuesta sentimental en camino, el amante romántico que llega, proposiciones de matrimonio o avances afectivos muy apasionados.",
+      "Trabajo": "Ofertas de empleo atractivas desde el punto de vista vocacional; viajes de trabajo motivados por ideales o pasiones.",
+      "Dinero": "Gastos motivados por impulsos románticos o regalos hacia seres queridos; fluidez económica orientada al disfrute afectivo.",
+      "Salud": "Vitalidad impulsada por el entusiasmo emocional; buen estado físico estimulado por la felicidad y el optimismo.",
+      "Evolucion": "Decisión de dejarse llevar por una propuesta irresistible del corazón, viajando hacia donde dicten los sentimientos."
+    },
+    "REINA DE COPAS": {
+      "Amor": "Mujer profundamente empática, compasiva y madura emocionalmente; la pareja perfecta que comprende, apoya y ama sin condiciones.",
+      "Trabajo": "Profesiones de ayuda, psicología, arte o diplomacia; liderazgo basado en la inteligencia emocional y la escucha activa de los equipos.",
+      "Dinero": "Intuición financiera acertada; el dinero se gestiona protegiendo el bienestar familiar y ayudando a los necesitados con sabiduría.",
+      "Salud": "Salud muy ligada al equilibrio psicológico; gran capacidad de sanación a través de la paz espiritual y el afecto.",
+      "Evolucion": "Decisión tomada desde la máxima madurez emocional, la compasión y la intuición certera e infalible."
+    },
+    "REY DE COPAS": {
+      "Amor": "Hombre maduro afectivamente, equilibrado, fiel y sabio en el amor; capacidad de calmar cualquier crisis de pareja con afecto y diplomacia.",
+      "Trabajo": "Consejero, mediador o líder justo y comprensivo; dominio de las situaciones laborales complejas mediante la inteligencia emocional.",
+      "Dinero": "Estabilidad económica madura; generosidad prudente y uso equilibrado del dinero para garantizar la paz del hogar.",
+      "Salud": "Salud estable basada en la moderación y en la ausencia de estrés emocional descontrolado; bienestar integral.",
+      "Evolucion": "Decisión guiada por la sabiduría del corazón unida a la experiencia; actuar con absoluta ecuanimidad y bondad."
+    },
+    "AS DE ESPADAS": {
+      "Amor": "Claridad absoluta sobre el estado de la relación; decisiones tajantes en el amor (corte definitivo o compromiso inquebrantable basado en la verdad).",
+      "Trabajo": "Éxito intelectual rotundo, contratos claros y sin ambigüedades, resolución brillante de problemas profesionales complejos.",
+      "Dinero": "Acuerdos económicos cristalinos, firma de documentos legales con total seguridad y corte de gastos innecesarios.",
+      "Salud": "Claridad mental despejada de niebla cerebral; cirugías o intervenciones médicas exitosas y definitivas.",
+      "Evolucion": "Decisión drástica, radical y muy lúcida; corte definitivo con situaciones confusas o engañosas."
+    },
+    "DOS DE ESPADAS": {
+      "Amor": "Bloqueo emocional y mental en la pareja, negación a ver los problemas reales, tregua forzada donde nadie cede.",
+      "Trabajo": "Punto muerto en negociaciones laborales, estancamiento por falta de información o incapacidad para elegir entre dos posturas.",
+      "Dinero": "Decisiones financieras paralizadas por el miedo a equivocarse; cuentas congeladas o bloqueo en transacciones.",
+      "Salud": "Tensión acumulada en la zona cervical o mental; insomnio por rumiación constante sin llegar a ninguna conclusión.",
+      "Evolucion": "Bloqueo absoluto; decisión postergada deliberadamente por miedo a afrontar la realidad evidente."
+    },
+    "TRES DE ESPADAS": {
+      "Amor": "Dolor emocional profundo, traición, infidelidad descubierta, ruptura sentimental dolorosa y heridas abiertas en el pensamiento.",
+      "Trabajo": "Críticas destructivas en el trabajo, traiciones por parte de compañeros, despidos dolorosos o fracasos profesionales hirientes.",
+      "Dinero": "Pérdidas económicas dolorosas derivadas de fraudes, estafas o multas imprevistas que afectan al ánimo.",
+      "Salud": "Afecciones psicosomáticas derivadas del estrés agudo; problemas cardíacos o dolencias físicas causadas por disgustos profundos.",
+      "Evolucion": "Decisión dolorosa pero necesaria; asimilar una verdad amarga que rompe esquemas previos."
+    },
+    "CUATRO DE ESPADAS": {
+      "Amor": "Distanciamiento temporal de mutuo acuerdo para reflexionar; tregua en los conflictos de pareja para calmar las aguas.",
+      "Trabajo": "Retiro estratégico en el trabajo, baja médica por agotamiento mental, pausa obligatoria en los proyectos en marcha.",
+      "Dinero": "Estabilidad estática; no hay movimientos económicos importantes, recomendándose prudencia y contención en el gasto.",
+      "Salud": "Convalecencia, necesidad absoluta de descanso físico y mental, recuperación de la energía en un entorno tranquilo.",
+      "Evolucion": "Decisión de parar, meditar y aislarse temporalmente del ruido exterior para recuperar la lucidez mental."
+    },
+    "CINCO DE ESPADAS": {
+      "Amor": "Discusiones destructivas donde el único objetivo es ganar y herir al otro; egoísmo, orgullo desmedido y rupturas con rencor.",
+      "Trabajo": "Ambiente laboral tóxico, competencia desleal, zancadillas entre compañeros y victorias profesionales a costa de perder la ética.",
+      "Dinero": "Estafas, abusos económicos, disputas legales por dinero donde ambas partes salen perjudicadas moralmente.",
+      "Salud": "Agotamiento nervioso extremo debido a pleitos y enfrentamientos constantes; tensión arterial alta por discusiones.",
+      "Evolucion": "Decisión errónea basada en el ego; victoria pírrica que deja al consultante moralmente derrotado y solo."
+    },
+    "SEIS DE ESPADAS": {
+      "Amor": "Transición pacífica tras una crisis de pareja; alejamiento conjunto de los problemas hacia un entorno más calmado y seguro.",
+      "Trabajo": "Cambio de empleo o de destino laboral que deja atrás los conflictos; solución gradual a los problemas profesionales.",
+      "Dinero": "Mejora lenta pero segura de la economía tras un bache; reestructuración de deudas que permite respirar con alivio.",
+      "Salud": "Recuperación progresiva tras una enfermedad; viaje o cambio de aires que favorece enormemente la salud mental.",
+      "Evolucion": "Decisión de dejar atrás el pasado conflictivo y navegar hacia aguas más tranquilas y constructivas."
+    },
+    "SIETE DE ESPADAS": {
+      "Amor": "Secretos ocultos en la pareja, falta de transparencia, desconfianza, actuar a espaldas del otro o infidelidades encubiertas.",
+      "Trabajo": "Estrategias ocultas, espionaje industrial, apropiación de méritos ajenos o planes profesionales que no se revelan.",
+      "Dinero": "Gastos ocultos, manejo turbio de dinero, contratos con cláusulas trampa o riesgo de pequeños robos y fraudes.",
+      "Salud": "Ocultamiento de síntomas médicos por miedo o negación; desórdenes mentales sutiles basados en la suspicacia.",
+      "Evolucion": "Decisión astuta pero poco ética; optar por la vía de la diplomacia oculta o la trampa para salir del paso."
+    },
+    "OCHO DE ESPADAS": {
+      "Amor": "Relación asfixiante donde el consultante se siente atrapado, sin libertad de expresión y prisionero de sus propios miedos afectivos.",
+      "Trabajo": "Sensación de estar encasillado y sin salida en el trabajo actual; bloqueo mental ante las exigencias laborales.",
+      "Dinero": "Ahogo financiero autogenerado por mala planificación; sensación de estar maniatado y sin margen de maniobra económica.",
+      "Salud": "Ataques de ansiedad, fobias, sensación de encierro físico o mental que inmoviliza al individuo.",
+      "Evolucion": "Autolimitación severa; decisión paralizada por complejos y creencias limitantes que solo existen en la mente."
+    },
+    "NUEVE DE ESPADAS": {
+      "Amor": "Angustia y tormento por problemas de pareja; celos obsesivos, insomnio por culpa de la relación y remordimientos afectivos.",
+      "Trabajo": "Pánico al fracaso profesional, estrés laboral extremo que quita el sueño, preocupación obsesiva por el futuro de la empresa.",
+      "Dinero": "Pesadillas recurrentes por deudas o ruina inminente; visión catastrofista de la economía personal.",
+      "Salud": "Insomnio crónico, trastornos de ansiedad severos, depresión y sufrimiento mental agudo.",
+      "Evolucion": "Decisión bloqueada por el terror al error; la mente tortura al consultante con escenarios negativos ficticios."
+    },
+    "SOTA DE ESPADAS": {
+      "Amor": "Vigilancia mutua en la pareja, comentarios punzantes, discusiones verbales agudas y falta de ternura por exceso de análisis crítico.",
+      "Trabajo": "Espionaje laboral, críticas constructivas pero duras, llegada de noticias tensas o auditorías e inspecciones en el trabajo.",
+      "Dinero": "Análisis milimétrico de las cuentas, revisión de facturas, contratos bajo lupa y escepticismo ante cualquier propuesta de gasto.",
+      "Salud": "Alerta mental constante; necesidad de relajar el sistema nervioso y dejar de hiperanalizar cada pequeño síntoma físico.",
+      "Evolucion": "Decisión tomada desde la crítica aguda; postura defensiva ante el entorno y necesidad de informarse bien antes de actuar."
+    },
+    "CABALLO DE ESPADAS": {
+      "Amor": "Conflictos que se precipitan con agresividad verbal; discusiones relámpago, celos violentos o ruptura fulminante por impulsividad.",
+      "Trabajo": "Acciones profesionales precipitadas y audaces, ritmo de trabajo frenético pero caótico, discusiones acaloradas con jefes o clientes.",
+      "Dinero": "Gastos repentinos e impulsivos motivados por urgencias; riesgo de multas, sanciones o pérdidas por actuar sin pensar.",
+      "Salud": "Riesgo de accidentes por prisa o nerviosismo; inflamaciones agudas o fiebre alta por estrés desbocado.",
+      "Evolucion": "Decisión imprudente y precipitada; lanzarse a la acción sin medir las consecuencias del propio ímpetu mental."
+    },
+    "REY DE ESPADAS": {
+      "Amor": "Relación regida por normas estrictas; pareja que exige honestidad intelectual y claridad, a veces carente de calidez emocional.",
+      "Trabajo": "Autoridad suprema en leyes, magistrados, consultores estratégicos o directivos cuya palabra es ley inflexible.",
+      "Dinero": "Planificación financiera maestra, cumplimiento estricto de obligaciones fiscales y contratos blindados jurídicamente.",
+      "Salud": "Control absoluto de la salud mediante revisiones periódicas y rigor en los tratamientos médicos prescritos.",
+      "Evolucion": "Decisión basada en la ley, la ética estricta y la justicia imparcial; resolución de conflictos con autoridad mental superior."
+    },
+    "AS DE BASTOS": {
+      "Amor": "Pasión desbordante, atracción física magnética e irresistible, inicio de un romance lleno de fuego, energía y entusiasmo.",
+      "Trabajo": "Explosión de creatividad laboral, inicio de un nuevo proyecto profesional con una fuerza e impulso imparables.",
+      "Dinero": "Inversiones audaces que prometen gran rentabilidad; entrada de dinero ligada a la actividad productiva y al esfuerzo inicial.",
+      "Salud": "Vitalidad desbordante, energía física pletórica, recuperación milagrosa de la fuerza vital y tono muscular excelente.",
+      "Evolucion": "Decisión tomada con absoluta determinación y coraje; lanzarse a la aventura vital con pasión ciega."
+    },
+    "DOS DE BASTOS": {
+      "Amor": "Proyección de futuro en pareja, planificación de proyectos en común mirando hacia nuevos horizontes.",
+      "Trabajo": "Planificación estratégica empresarial, expansión laboral, evaluación de mercados internacionales o nuevos socios comerciales.",
+      "Dinero": "Decisiones sobre dónde invertir el capital para obtener expansión a largo plazo; control de los recursos para futuros proyectos.",
+      "Salud": "Vitalidad equilibrada; buen momento para planificar rutinas de entrenamiento orientadas a mejorar el rendimiento físico.",
+      "Evolucion": "Decisión en la encrucijada; elegir entre quedarse en la seguridad actual o expandir los horizontes vitales."
+    },
+    "TRES DE BASTOS": {
+      "Amor": "Consolidación de los planes de pareja; la relación madura y empieza a cosechar los frutos de los proyectos iniciados en conjunto.",
+      "Trabajo": "Comercio exterior, expansión de negocios, primeros resultados visibles de un gran esfuerzo laboral y apertura de nuevos mercados.",
+      "Dinero": "Beneficios económicos derivados de inversiones o proyectos que ya empiezan a expandirse más allá de las fronteras locales.",
+      "Salud": "Excelente estado de salud; la energía fluye libremente permitiendo afrontar retos físicos importantes con éxito.",
+      "Evolucion": "Decisión de apostar por la expansión global; esperar en la orilla a que los barcos enviados comiencen a regresar cargados."
+    },
+    "CUATRO DE BASTOS": {
+      "Amor": "Estabilidad en el hogar, bodas, celebraciones familiares íntimas, armonía con la pareja y paz en la convivencia diaria.",
+      "Trabajo": "Estabilidad laboral consolidada, buen ambiente en la oficina, consecución de metas comunes y celebración de hitos empresariales.",
+      "Dinero": "Economía doméstica saneada y segura; gastos destinados al hogar, la mejora de la vivienda o festejos familiares.",
+      "Salud": "Salud armoniosa; descanso reparador y sensación de profunda seguridad física y mental en el propio hogar.",
+      "Evolucion": "Decisión de asentarse, comprar casa o formalizar compromisos vitales duraderos y seguros."
+    },
+    "CINCO DE BASTOS": {
+      "Amor": "Fricciones cotidianas en la pareja, pequeños choques de ego, desacuerdos constantes que generan tensión sin llegar a romper el vínculo.",
+      "Trabajo": "Pugnas de poder en la oficina, competencia feroz entre compañeros, desacuerdos en reuniones y proyectos bloqueados por rivalidades.",
+      "Dinero": "Disputas por repartos de dinero, gastos imprevistos por conflictos o competencia comercial que merma temporalmente los ingresos.",
+      "Salud": "Tensión muscular por estrés competitivo; fatiga derivada de tener que luchar constantemente en el día a día.",
+      "Evolucion": "Decisión obstaculizada por la oposición de terceros; necesidad de lidiar con un entorno competitivo y ruidoso."
+    },
+    "SEIS DE BASTOS": {
+      "Amor": "Reconocimiento público de la pareja, orgullo mutuo, superación conjunta de una crisis con triunfo y admiración recíproca.",
+      "Trabajo": "Victoria profesional rotunda, éxito aplaudido por los superiores, ascensos, premios y reconocimiento oficial al mérito.",
+      "Dinero": "Ingresos extraordinarios fruto del éxito y de la popularidad de un proyecto o negocio; bonificaciones y premios económicos.",
+      "Salud": "Recuperación total y triunfal de una dolencia; vitalidad en su punto más alto, sensación de invulnerabilidad física.",
+      "Evolucion": "Decisión triunfante; el consultante alcanza el estatus y el reconocimiento anhelado tras una dura batalla."
+    },
+    "SIETE DE BASTOS": {
+      "Amor": "Defensa férrea de la relación frente a críticas externas o terceras personas que intentan interferir en el vínculo afectivo.",
+      "Trabajo": "Defender el propio puesto de trabajo o las ideas propias frente a ataques de la competencia o compañeros envidiosos; mantener la posición.",
+      "Dinero": "Proteger los ahorros e inversiones frente a amenazas externas, deudas imprevistas o intentos de estafa.",
+      "Salud": "Resistencia física ante la fatiga o la enfermedad; el sistema inmunológico se defiende con fuerza de las agresiones externas.",
+      "Evolucion": "Decisión firme de mantenerse en sus trece; resistir con valentía y coraje frente a la adversidad y los ataques."
+    },
+    "OCHO DE BASTOS": {
+      "Amor": "Acontecimientos sentimentales que se precipitan a gran velocidad; flechazos fulminantes, mensajes inesperados o viajes románticos relámpago.",
+      "Trabajo": "Rapidez extrema en los negocios, cierre exprés de contratos, llamadas urgentes, viajes de trabajo repentinos y dinamismo puro.",
+      "Dinero": "Entradas y salidas de dinero muy rápidas; transacciones veloces que exigen agilidad en la gestión financiera.",
+      "Salud": "Recuperación vertiginosa; exceso de energía que puede derivar en hiperactividad si no se canaliza adecuadamente.",
+      "Evolucion": "Decisión tomada de manera fulminante; los acontecimientos se aceleran de tal modo que no dejan tiempo para dudar."
+    },
+    "NUEVE DE BASTOS": {
+      "Amor": "Resistencia en el amor; la pareja ha sufrido desgaste pero se mantiene unida a pesar de las cicatrices acumuladas en el camino.",
+      "Trabajo": "Agotamiento laboral extremo pero con la guardia en alto; última línea de defensa antes de alcanzar la victoria definitiva en un proyecto.",
+      "Dinero": "Precaución extrema tras haber sufrido pérdidas en el pasado; el dinero se cuida con desconfianza y reserva.",
+      "Salud": "Cansancio crónico acumulado; el cuerpo resiste por pura fuerza de voluntad, exigiendo un descanso que se viene posponiendo.",
+      "Evolucion": "Decisión de aguantar el último tirón; el consultante está a un paso de la meta pero con las defensas mermadas."
+    },
+    "SOTA DE BASTOS": {
+      "Amor": "Mensajes de amor entusiastas, coquetería juvenil, relaciones divertidas, espontáneas y llenas de chispa y aventura.",
+      "Trabajo": "Mensajero de buenas noticias laborales, espíritu emprendedor joven, aprendizaje de nuevas técnicas con gran ilusión y dinamismo.",
+      "Dinero": "Pequeños ingresos derivados de proyectos creativos o independientes; manejo del dinero alegre y despreocupado.",
+      "Salud": "Vitalidad desbordante propia de la juventud; práctica de deportes dinámicos y al aire libre con gran entusiasmo.",
+      "Evolucion": "Decisión tomada con espíritu aventurero; abrirse a explorar nuevas experiencias con optimismo y osadía."
+    },
+    "CABALLO DE BASTOS": {
+      "Amor": "Pasión desbocada, romances intensos pero inconstantes, viajes por amor, mudanzas repentinas para convivir con la pareja.",
+      "Trabajo": "Viajes de negocios frecuentes, dinamismo comercial, espíritu emprendedor arriesgado, mudanzas de sede o cambios de empleo repentinos.",
+      "Dinero": "Gastos elevados en viajes, aventuras o proyectos impulsivos; riesgo de inestabilidad económica por falta de planificación.",
+      "Salud": "Energía física desbordante y explosiva; riesgo de lesiones por exceso de actividad o velocidad en los deportes.",
+      "Evolucion": "Decisión impulsiva y viajera; cambiar radicalmente de rumbo vital empujado por un arrebato de pasión y libertad."
+    },
+    "REY DE BASTOS": {
+      "Amor": "Líder en la relación, protector apasionado, carismático y dominante; hogar donde se vive con intensidad, lealtad y autoridad natural.",
+      "Trabajo": "Director general, gran empresario, visionario indiscutible; capacidad de mando suprema y éxito rotundo en grandes empresas.",
+      "Dinero": "Riqueza generada por la propia capacidad directiva y empresarial; inversiones a gran escala con control absoluto del riesgo.",
+      "Salud": "Constitución robusta, energía vital potente y vigorosa; gran resistencia física y mental ante las exigencias de la alta dirección.",
+      "Evolucion": "Decisión de líder absoluto; tomar las riendas del propio destino con visión de águila y autoridad incontestable."
+    },
+    "NORMAS GENERALES OBLIGATORIAS": {},
+    "BÉNTURI DESPEGUE": {},
+    "BÉNTURI PREMIUM": {}
+  },
+  "textos_fijos": {
+    "tres_poderes": "5.-EL MÉTODO BÉNTURI, Y LOS TRES PODERES.\n(Relacionarás los vectores cartas con los tres poderes del método bénturi, individualmente y su correlación entre ellas,teniendo en cuenta la pregunta original, los podrá ver en el punto 6)\n\nRelacionar con los tres poderes:\nPRIMER PODER: \"CONOCE\" (La Proyección)\nSEGUNDO PODER: \"EL DEL AMOR\" (Evaluación Vibracional / Pirámide de Crecimiento Personal: víctima, miedo, deseo, ira/frustración, aprendizaje vs culpar, orgullo vs humildad, valor, desapego, aceptación vs resignación, sabiduría, amor, amor incondicional, vibrando en la frecuencia).\nTERCER PODER: \"DECIDE\" (La Acción Transformadora / Scripting, Relájate, Visualízate, Desapegarse, Satura el subconsciente, La acción, Paradoja de las tres puertas).\nPoner obligatoriamente en negrita y cursiva este texto al final del punto cinco:\n\"Ahora que conoces esa proyección de futuro de altísima probabilidad, estás alineado con el Amor, y entiendes su poder, si no haces, no crees de verdad, qué pasará. Solo deseas desde la carencia. Tienes una gran ventaja al disponer del Método Bénturi. Pero perdón por ser reiterativos, si no haces y te quedas esperando, no crees de verdad...\"\n6-ANEXO PARA PUNTO NÚMERO 5 ,LOS TRES PODERES DEL MÉTODO BENTURI\nPRIMER PODER\n\"CONOCE\"\nEl primer poder del método Bénturi, consiste en conocer esa proyección de futuro de altísima probabilidad,que algunos llamarán destino.\nY de esa manera poder cambiarlo si no te gusta,con el poder número tres\nDECIDE\nLas cartas no dejan de ser , vectores que el Algoritmo Bénturi,decodifica.\nAl igual que la física cuántica,el Algoritmo se centra en la veracidad del resultado.\nAnalizando entre millones de combinaciones.\nIn el caso de la tirada de 24 cartas,hasta 329 billones\n.\n.\n.\nSEGUNDO PODER\nPODER DEL Amor❤️\nPIRAMIDE DE CRECIMIENTO PERSONAL\n.\nAntes de empezar, en relación a todos los niveles o estados de crecimiento personal, destacaríamos que en todos ellos hay una palabra común.\nEsa palabra sería “PODER», no el entendido de una manera intuitiva, como la capacidad de subyugar al otro.\nEste “PODER” es muy diferente, es el que nos permite tomar decisiones, la ausencia de este, determina en muchos casos ese nivel en el que nos encontramos.\nEstados de la pirámide de crecimiento personal\nLa víctima\nUna persona que se siente víctima es alguien que percebe que ha sido tratada injustamente, ha sido perjudicada o ha sufrido algún daño por las acciones de otros o por circunstancias fuera de su control. Este sentimiento puede ser resultado de experiencias pasadas, eventos traumáticos o situaciones actuales. Las personas que se sienten víctimas a menudo pueden experimentar emociones como tristeza, enojo, impotencia y desesperanza.\nEntonces buscamos una salida, y esta es proporcionada por el miedo, que nos obliga a abandonar este estado.\n.\nEl miedo\n.\nen el estado victima el sentimiento primario que sentimos, es el Miedo. Sigue siendo un estado con muy poco “poder”\nEl miedo, aunque a menudo es visto de manera negativa, cumple una función importante en nuestra vida diaria al ayudarnos a evitar el peligro y a adaptarnos a nuestro entorno. Sin embargo, cuando el miedo se vuelve excesivo o irracional, puede interferir con nuestra calidad de vida y es posible que se necesite intervención profesional para gestionarlo.\nEste miedo constante, nos lleva a tomar consciencia de buscar algo más, para encajar con los demás y sobre todo obtener “premios”, normalmente aspiracionales, que muchas veces se identifican con lo material.\nDecirnos a nosotros mismos, “si consigo eso, habré ganado”. Dando lugar al siguiente escalón. El Deseo\nEl miedo es una emoción humana básica que tiene varias causas y funciones. A continuación, se explican algunas de las razones por las que una persona puede sentir miedo:\n.\nEl deseo\n.\nLlegamos a este escalón porque queremos algo mejor. Abajo lo detallamos. Tiene muchos problemas, a todos los niveles, ya que al estar basado en la consecución de algo normalmente externo, a nosotros lleva a una constante insatisfacción.\nSiempre queremos más, y esto nos llevará a la IRA.\nEl deseo, una fuerza poderosa que impulsa muchas de nuestras acciones y decisiones, puede tener varios inconvenientes dependiendo del contexto en el que se manifieste.\n.\nLa ira y/o frustración\n.\nEsos deseos insatisfechos nos llevan a un estado de ira y/o frustración, ya que nos creemos merecedores de una vida mejor, ya que somos especiales a nuestros ojos… Lo cual nos hace buscar algo fuera que nos haga mejores, una vida con ciertos privilegios, cambiando la culpa por El APRENDIZAJE.\nLa ira y la frustración son emociones comunes que todos experimentamos en diferentes momentos de nuestras vidas. Ambas son respuestas emocionales a situaciones que percibimos como injustas, amenazantes, o que están fuera de nuestro control. A continuación, se ofrece una descripción más detallada de cada una de estas emociones, sus causas comunes y algunas estrategias para manejarlas\n.\nAprendizaje vs Culpar\n.\nDespués de esos sentimientos de ira y frustración, generados fundamentalmente por no haber conseguido esos objetivos fruto del deseo, podemos tomar dos caminos: el de culpar a los otros, al entorno o a multitud de factores externos; o responsabilizarnos y entender que lo que ha pasado solo fue una manera de aprender. Entonces, todo se vuelve una oportunidad y cada paso que avancemos en esa dirección aumentará nuestra autoestima. Dará paso al ORGULLO.\n«Aprender» y «culpar» son dos enfoques opuestos ante los desafíos y errores en la vida. Aquí se exploran sus diferencias y cómo pueden afectar el desarrollo personal y profesional.\n.\nOrgullo vs Humildad\n.\nUna vez que entiendo que todo es aprendizaje, como decíamos, nuestra autoestima aumenta. Pero tiene una pequeña trampa, la de creer que nuestro Orgullo creciente está hecho para “ganar”, siempre en contraposición con el otro, solo pudiendo salir de esta paradoja a través de\n.\n“LA HUMILDAD”.\nA continuación, se presentan sus definiciones, características y los efectos que pueden tener en nuestras vidas:\nEl orgullo y la humildad son dos características opuestas que influyen en el comportamiento y la percepción de uno mismo y de los demás.\nValor\nPor medio de la humildad pasamos del estado del miedo al del amor, guiándonos al mundo del VALOR. Es decir, ya nos sentimos capaces sin abusar de nuestras capacidades o conocimientos.\nCuando empezamos a pensar en los demás, en qué puedo aportarles, empezaremos a producir con mucho más valor.\nY sin saber cómo empezaremos a estar más abiertos a recibir alegría y felicidad. Y entonces pasaremos al siguiente nivel:\n.\n”EL Desapego”.\nEl valor personal es un concepto que abarca la autoestima, la autovaloración y la autoeficacia de una persona. Se refiere a la percepción que una persona tiene sobre su propio valor y sus capacidades, y cómo esta percepción afecta su comportamiento, decisiones y relaciones con los demás.\nDesapego\nAhora entramos en el nivel del\n.\nDesapego\n.\n.\n, que no tiene nada que ver con la acepción intuitiva que todos tenemos de la palabra. Desapego no es que no tengas cosas materiales o intelectuales, quiere decir que ellas no te poseen a ti. Es hacer las cosas bien, con amor y gratitud y no preocuparnos por el resultado como culpa, solo como aprendizaje.\nLas cosas que nos sucedieron son las que tuvieron que ser y no podrían haber sucedido de otra manera. Nuestra única responsabilidad ante Dios para los creyentes, el Universo o como lo queramos llamar, es hacer lo correcto dentro de lo que podemos controlar. Aquí pasamos entonces del “mundo material al espiritual”.\nEl desapego es un concepto que se refiere a la capacidad de liberarse emocionalmente de los apegos o dependencias hacia personas, cosas, situaciones o resultados. Es una práctica que se encuentra en varias tradiciones espirituales y filosóficas, y que se promueve como una manera de alcanzar un estado de paz y equilibrio interior.\nAceptación vs Resignación\n.\nen este estado entendemos que aquello que nos pasa es como tuvo que ser y no podría ser de otra forma.\nAceptamos como bueno todo, haciéndonos preguntas tales como «¿Qué puedo aprender de esto?», no pensar en las cosas “malas” que nos sucedan como un castigo del Universo, Dios… El dolor, al entenderlo como parte de ese proceso de aprendizaje, perderá totalmente su fuerza.\nEn el Budismo se dice que “El dolor en la vida es inevitable, el sufrimiento no”. Cuando aceptemos “haciendo» lo que podemos controlar (no resignándose), La vida pasará a ser maravillosa y llena de oportunidades. Empezamos a entender el verdadero sentido de una vida plena.\nLa aceptación a nivel espiritual es un concepto profundo y multifacético que implica una comprensión y una integración de diversos aspectos de la vida y del ser, desde una perspectiva más amplia y trascendental.\n.\nLa sabiduría\n.\nen este estado, entendemos que cada cual tiene su camino, ya no juzgamos. Eso no implica que no queramos ayudar, todo lo contrario… Aquí nuestra única responsabilidad es hacer las cosas “bien”, de acuerdo a valores éticos y morales.\nEso nos generará un estado de paz y liberación, totalmente opuesto a la resignación. Ya no queremos tener razón y demostrar a los demás lo equivocados que están… Cuando vemos que alguien se equivoca u odia o tiene envidia, no sentimos rechazo y pasamos a ponernos en su posición, por qué se siente así …\nEmpezamos a sentir la palabra más maravillosa para un ser humano: LA COMPASIÓN. Es que no juzga, que entiende y perdona… Entramos en el próximo nivel:\n.\nEL “Del Amor❤️”\nLA sabiduría espiritual es un concepto complejo y multifacético que ha sido interpretado de diversas maneras a lo largo de la historia y por diferentes culturas. En general, se refiere a un entendimiento profundo de la naturaleza de la realidad, el significado de la vida y nuestro lugar en el universo. Esta sabiduría se adquiere a través de la experiencia, la reflexión y la conexión con algo más grande que nosotros mismos, ya sea Dios, la naturaleza o nuestro propio ser interior.\n.\nEl amor.\n.\nEn este estado, el del AMOR, nos convertimos en portadores de bondad. La sabiduría por si misma es un conocimiento que se perderá. Ahora, al darlo a los demás, nos permitirá entender y no juzgarles.\nJesús, uno de los metafísicos más transcendentes de la humanidad, decía: «que tire la primera piedra el que no tenga culpa».\nEntraremos en un estado de “vibración” con el todo, para los creyentes “Dios”; los ateos el “Universo”; para Einstein “La Naturaleza” en su orden perfecto.\nYa somos conscientes de algo que nos engloba a todos.\nEntendiendo que solo somos una parte muy pequeña dominada por ambiciones y deseos personales, que son construidas frente al otro. Yo tengo porque ocupo un espacio, yo tengo porque quito… Yo soy según esas etiquetas externas, que en ese mundo material me conforman\nEl amor espiritual es un concepto que va más allá del amor romántico o fraternal. Se trata de un sentimiento de conexión profunda con algo más grande que nosotros mismos, ya sea con Dios, con la naturaleza, con el universo o con nuestra propia esencia espiritual.\n.\nAmor incondicional\n.\nEl Amor incondicional sería el estado último y supremo escalón de crecimiento personal. Realmente nunca se está ahí, ya que requiere gran esfuerzo y perdón.\nSería el estado de negación absoluta a uno mismo, o más bien entender que tú no eres tú, eres parte de un todo.\n¿Entonces cómo podrías querer hacerte daño a ti mismo?\nEl amor incondicional es un concepto complejo y multifacético que ha sido explorado por filósofos, psicólogos y líderes religiosos durante siglos.\nVibrando en la frecuencia\nUna vez que hemos entendido todos los escalones del crecimiento personal, estaremos preparados para vibrar en la frecuencia del Universo, que aunque suene naive, es la frecuencia del “AMOR”.\nAquí todo está bien, ya que te lo parecerá, y como decíamos anteriormente: “SI ALGO TE PARECE QUE ES BUENO, LO ES”. Todo es cuestión de percepción.\nYa estamos preparados para acceder al tercer punto del Método Bénturi.\nSintonizar con la frecuencia del universo es un concepto que se refiere a alinear nuestra energía personal con la vibración natural del cosmos. Esto implica elevar nuestra conciencia, desarrollar un estado mental positivo y adoptar una perspectiva de unidad y conexión con todo lo que existe.\n.\nTERCER PODER\n\"DECIDE\"\n.\nUna vez que conocemos esa proyección de futuro de altísima probabilidad,que algunos llamarán destino.\nPoder número uno.\nConocemos la pirámide de crecimiento personal.\nSegundo poder\nPoder del Amor\nAhora nos toca si no nos gusta esa proyección,cambiarla de manera práctica.\nO simplemente crear ese futuro deseado\nLos pasos para hacerlo son:\nScripting\nEscribiremos en una hoja de papel aquel objetivo que queramos conseguir, pero con todo tipo de detalles que incluyan elementos emocionales.\nPongamos un ejemplo:\nSi queremos una casa desde hace tiempo, escribimos cómo aparcamos el coche en el garaje, cómo nos cruzamos con un vecino y entablamos una animada conversación. Por ejemplo, las orquídeas que acabas de plantar. Y te dice que le encantan …\nTenemos que buscar eso que nos hace estar feliz. Si soy vanidoso, nos dirá «qué guapo te veo hoy», etc.\nEntras en casa y te ves abriendo la puerta y sentándote en el sofá. Te tomas una cerveza o un agua con gas y la saboreas. Y dices las palabras mágicas: «¡¡QUÉ MARAVILLA, QUÉ MARAVILLA!!». Cuantos más detalles, mejor…\nY al final… ¡¡Gracias!! ¡¡Gracias!! ¡¡Gracias!! ¡¡Aquí tenemos que ganar el Óscar al mejor interprete!!\n¿And cómo lo ganaremos? Para transmitir, vibrar en la frecuencia adecuada, solo hay un camino: creer…\n.\nRelájate\n.\nLA relajación genera ondas alfa, pensamientos tranquilos y sobre todo un sentimiento de integración cuerpo alma\n¿cómo lo conseguimos?\nA través de la respiración. Utilizaremos el método 3-6-9.\n¿In qué consiste?\nInspiramos por la nariz llenando totalmente los pulmones durante tres segundos. Luego mantenemos en apnea durante seis segundos. Por último, expiramos durante nueve segundos por la boca, oyendo como sale el aire suavemente.\nAsí lo repetiremos las veces que haga falta, hasta que nos notemos relajados.\nVisualízate\nAhora es el momento de visualizar todo lo que escribimos en el punto uno (Scripting). Tiene que ser lo más vivido y real, como si fuera una película, con todo lujo de detalles. Estos serán los que le den riqueza.\nPero aquí no estamos deseando, tenemos que creer que ya es nuestro. Es muy importante conectar con nuestro yo humano, que las imágenes y los hechos nos hagan vibrar, en una conversación, una sonrisa, un hasta luego…\nen el punto cuatro veremos cómo conseguir que nos lo creamos.\nMuy Importante: es conveniente hacer la visualización justo antes de dormir, ya que el sueño será el gran aliado para que se grabe en nuestro subconsciente.\n.\nDesapegarse\n.\nEste punto es muy importante. Sin él, nada funcionará.\nUna vez que nos hemos relajado y visualizado vívidamente, nos olvidaremos del asunto, en el sentido de que ya es nuestro, ya va a pasar, es inevitable.\nSi nos ponemos en posición de deseo, estamos en carencia, le estamos diciendo al Universo, que no tenemos y no estaremos vibrando en la frecuencia de la Abundancia\n“No fallan los principios, fallan las personas”.\n.\nSatura el subconsciente\n.\nPara que la visualización funcione, tenemos que saturar el Subconsciente. Tenemos que tener en cuenta que este domina casi el 90% de nuestro cerebro.\nEn el fondo, el que tiene que creer de verdad es el subconsciente. Para ello, la herramienta mas transcendente es la repetición. Por lo tanto, deberemos hacer la visualización todas las noches antes de dormirnos.\n¿Durante cuánto tiempo?\nEse será variable pero lo más razonable es hasta que se cumpla lo que ya es tuyo. Habrá gente que necesite un año y otra será en una semana.\nA tu subconsciente no le importa lo que quieres o deseas, solo lo que repites.\nYa que entiende que es relevante para ti.\n.\nLa acción\n.\nEl Universo, Dios, o como lo queramos llamar, solo pide dos cosas por tu parte.\nPrimero, que creas que ya es nuestro.\nSegundo, ”la Acción”. Esto nos quiere explicar, como comentábamos en puntos anteriores, ¿cómo podría Djokovic ganar un partido, si no lo juega?\nLa paradoja de las tres puertas\nLA Física de Einstein nos decía que el tiempo (pasado, presente y futuro) está escrito. La Física Cuántica nos lo matiza, sería como estar delante de tres puertas (probabilidades del hecho), y nosotros al visualizar, haremos que dentro de esa puerta esté lo que ya es nuestro.\n“LA ACCIÓN ES INDISPENSABLE”.\nPara Ser arquitectos y dueños de ese futuro, en el cual , ya no somos meros espectadores.\nNORMAS GENERALES OBLIGATORIAS:\nLas cartas las llamarás CARTAS-VECTORES DE PROYECCIÓN.\nEl nombre Carmen Díaz lo evitarás siempre en el resultado.\nLa referencia directa a la física cuántica la evitarás (usando sus analogías explicadas de forma coloquial).\nPondrás los titulares en MAYÚSCULAS, NEGRITA Y SUBRAYADOS, separados por un espacio interlineal de este titular y la argumentación.\nPondrás muchos emoticonos, muchos, para que todo sea muy visual,excluye siempre el emoticono de  la bola de cristal.\nBLOQUE FINAL OBLIGATORIO (Ponlo siempre al final de todo el texto):\nSI EL ALGORITMO HA AJUSTADO ESA PROYECCIÓN DE FUTURO DE ALTÍSIMA PROBABILIDAD, QUE ALGUNOS LLAMARÁN DESTINO... ⚡🔮\nIMAGINA LO QUE LOGRARÁS CON EL SISTEMA COMPLETO. 🤔✨\nSi esto es lo que el algoritmo puede decodificar con una sola proyección, el límite lo pones tú. 🔝\nPor una inversión menor a un menú mensual, accede a la HOJA DE RUTA TOTAL del MÉTODO BÉNTURI:\nBÉNTURI DESPEGUE:\n8.99€\n✅ 12 PROYECCIONES DE ALTA PROBABILIDAD DE FUTURO\nMENSUALES.\n✅ 1 PROYECCION PROFUNDA DE 24 CARTAS MENSUAL 🃏✨\n✅ EVALUACIÓN DE TU ESTADO EN LA PIRÁMIDE DEL AMOR ,PARA SU ASCENSO Y VIBRAR EN LA ENERGIA ADECUADA,PARA TU ÉXITO ❤️🔥 💖👑\n✅ VISUALIZACIONES EXCLUSIVAS PARA MANIFESTAR TUS OBJETIVOS 🚀🌟\nBÉNTURI PREMIUM:\n11.95 €\n✅    ILIMITADAS PROYECCIONES DE ALTA PROBABILIDAD DE FUTURO\n♾️\n✅  2 PROYECCIONES PROFUNDAS DE 24 CARTAS MENSUAL 🃏✨\n✅ EVALUACIÓN DE TU ESTADO EN LA PIRÁMIDE DEL AMOR ,PARA SU ASCENSO Y VIBRAR EN LA ENERGIA ADECUADA,PARA TU ÉXITO ❤️🔥 💖👑\n✅ VISUALIZACIONES EXCLUSIVAS PARA MANIFESTAR TUS OBJETIVOS 🚀🌟\nDeja de observar tu destino y empieza a diseñarlo. 🎨 Como ya hacen cientos de miles, toma las riendas de tu vida. 🐎💨\n¡SUERTE! 🍀\nAUNQUE PROBABLEMENTE, YA NO LA NECESITES. 😏🔥\n\nEL MÉTODO BÉNTURI PROPORCIONA EL MAPA, LA BRÚJULA Y LA ESTRUCTURA; PERO EL VIAJE, EL PASO FIRME Y LOS RESULTADOS DEPENDEN EXCLUSIVAMENTE DE TI.\n“CONOCE TU PROYECCIÓN DE ALTISIMA PROBABILIDAD , ASCIENDE EN LA PIRAMIDE  DEL AMOR ,PARA QUE TUS DECISIONES ESTEN ALINEADAS EN LA FRECUENCIA DEL ÉXITO VERDADERO Y DECIDE DONDE QUIERES ESTAR EN ESE FUTURO.”\nNINGÚN SISTEMA TRANSFORMA UNA VIDA SI NO HAY UN COMPROMISO REAL DETRÁS. LA HERRAMIENTA ESTÁ LISTA: EL VERDADERO PROTAGONISTA DE TU CAMBIO ERES TÚ.\nNO FALLAN LOS PRINCIPIOS,FALLAN LAS PERSONAS. actualizalo"
+  }
+}
