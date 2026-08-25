@@ -319,7 +319,6 @@ app.post('/api/redsys-webhook', (req, res) => {
     }
 });
 
-const { GoogleGenerativeAI } = require("@google/generative-ai");
 const PDFDocument = require("pdfkit");
 const fs = require('fs');
 const path = require('path');
@@ -328,37 +327,38 @@ app.post('/api/generate-report', async (req, res) => {
     try {
         const { question, result } = req.body;
         
-        const apiKey = process.env.GEMINI_API_KEY || "PEGA_AQUI_TU_API_KEY_DE_GEMINI";
-        if (apiKey === "PEGA_AQUI_TU_API_KEY_DE_GEMINI") {
-            console.warn("Falta GEMINI_API_KEY en .env");
-        }
-        
-        const genAI = new GoogleGenerativeAI(apiKey);
-        const promptFile = path.join(__dirname, 'prompt_generacion.txt');
-        const systemPrompt = fs.readFileSync(promptFile, 'utf8');
-        
-        // Leer base de conocimientos
+        // Leer base de conocimientos de combinaciones y significados deterministas
         const kbPath = path.join(__dirname, 'base_conocimiento_cartas.json');
+        const detPath = path.join(__dirname, 'base_determinista_cartas.json');
+        
         let kb = { significado_cartas: [], combinaciones: [] };
+        let det = { cartas: {}, textos_fijos: {} };
+        
         try {
             kb = JSON.parse(fs.readFileSync(kbPath, 'utf8'));
+            det = JSON.parse(fs.readFileSync(detPath, 'utf8'));
         } catch (e) {
-            console.error("No se pudo leer base_conocimiento_cartas.json", e);
+            console.error("No se pudo leer bases de conocimiento JSON", e);
         }
 
-        let contextText = "";
-        let combinacionesEncontradas = [];
-        
         const normalizeCard = (name) => name ? name.toLowerCase().replace(/ de /g, ' ').trim() : '';
         
-        const getCardInfo = (cardName) => {
-            const norm = normalizeCard(cardName);
-            const found = kb.significado_cartas?.find(c => normalizeCard(c.carta) === norm);
-            return found ? `${found.acepcion_principal} | Matices: ${found.acepciones_secundarias}` : "Sin información extra";
+        const getDeterministicInfo = (cardName) => {
+            if (!cardName) return "Sin carta";
+            
+            // Buscar coincidencia exacta o similar en las keys
+            const keys = Object.keys(det.cartas);
+            const foundKey = keys.find(k => normalizeCard(k) === normalizeCard(cardName));
+            
+            if (foundKey) {
+                const info = det.cartas[foundKey];
+                return `**Amor y Relaciones**: ${info.Amor || 'N/A'}\n\n**Trabajo y Profesión**: ${info.Trabajo || 'N/A'}\n\n**Dinero y Finanzas**: ${info.Dinero || 'N/A'}\n\n**Salud y Bienestar**: ${info.Salud || 'N/A'}\n\n**Evolución Personal y Decisiones**: ${info.Evolucion || 'N/A'}`;
+            }
+            return "Información no encontrada en la base determinista.";
         };
 
-        const checkCombo = (c1, c2) => {
-            if (!c1 || !c2) return;
+        const formatComboStr = (c1, c2) => {
+            if (!c1 || !c2) return null;
             const match = kb.combinaciones?.find(c => {
                 const parts = c.combinacion.toLowerCase().split('+').map(p => p.trim().replace('.', ''));
                 if (parts.length >= 2) {
@@ -371,63 +371,68 @@ app.post('/api/generate-report', async (req, res) => {
                 return false;
             });
             if (match) {
-                combinacionesEncontradas.push(`- **Combinación ${c1} + ${c2}:** ${match.significado}`);
+                return `[${c1} + ${c2}]: ${match.significado}`;
             }
+            return null;
         };
 
-        let vectoresArray = [];
+        let reportText = `PREGUNTA DEL CONSULTANTE\n"${question}"\n\n`;
+        reportText += `1.- ANÁLISIS INDIVIDUAL DE CADA VECTOR-CARTA RESPECTO A LA PREGUNTA\n\n`;
+
         if (result.q1) {
             // Matriz 24
-            vectoresArray = [
-                { posicion: "Cuadrante 1: Origen y Causa Subyacente", significado: result.q1 },
-                { posicion: "Cuadrante 2: Fricción y Resistencia", significado: result.q2 },
-                { posicion: "Cuadrante 3: Puntos de Inflexión y Acción", significado: result.q3 },
-                { posicion: "Cuadrante 4: Proyección y Desenlace", significado: result.q4 }
+            const cuadrantes = [
+                { pos: "Cuadrante 1: Origen y Causa Subyacente", cartasStr: result.q1 },
+                { pos: "Cuadrante 2: Fricción y Resistencia", cartasStr: result.q2 },
+                { pos: "Cuadrante 3: Puntos de Inflexión y Acción", cartasStr: result.q3 },
+                { pos: "Cuadrante 4: Proyección y Desenlace", cartasStr: result.q4 }
             ];
-            contextText = `TIPO DE MATRIZ: Matriz Express de 24 Vectores\nPREGUNTA DEL USUARIO: ${question}\n\nDATOS EXTRAÍDOS (Resumen por Cuadrantes):\n${JSON.stringify(vectoresArray, null, 2)}`;
+            
+            cuadrantes.forEach(c => {
+                reportText += `### ${c.pos}\nCartas: ${c.cartasStr}\n*(Nota: En matriz de 24 se requiere extracción manual de cartas para el análisis individual detallado)*\n\n`;
+            });
+
         } else {
             // Matriz 6
-            vectoresArray = [
-                { posicion: "Situación Inicial", cartas: `${result.c1}, ${result.c2}`, info_c1: getCardInfo(result.c1), info_c2: getCardInfo(result.c2) },
-                { posicion: "Desarrollo", cartas: `${result.c3}, ${result.c4}`, info_c3: getCardInfo(result.c3), info_c4: getCardInfo(result.c4) },
-                { posicion: "Desenlace", cartas: `${result.c5}, ${result.c6}`, info_c5: getCardInfo(result.c5), info_c6: getCardInfo(result.c6) }
+            const cartasArray = [
+                { id: 1, name: result.c1 },
+                { id: 2, name: result.c2 },
+                { id: 3, name: result.c3 },
+                { id: 4, name: result.c4 },
+                { id: 5, name: result.c5 },
+                { id: 6, name: result.c6 }
             ];
-            checkCombo(result.c1, result.c2);
-            checkCombo(result.c3, result.c4);
-            checkCombo(result.c5, result.c6);
-            
-            contextText = `TIPO DE MATRIZ: Matriz de 6 Vectores\nPREGUNTA DEL USUARIO: ${question}\n\nVECTORES BASE:\n${JSON.stringify(vectoresArray, null, 2)}\n\n`;
-            if (combinacionesEncontradas.length > 0) {
-                contextText += `MATRIZ DE COMBINACIONES DETECTADAS:\n${combinacionesEncontradas.join('\n')}\n\n`;
+
+            cartasArray.forEach(c => {
+                reportText += `### Carta ${c.id}: ${c.name || 'N/A'}\n`;
+                reportText += `${getDeterministicInfo(c.name)}\n\n`;
+            });
+
+            const combosReales = [
+                formatComboStr(result.c1, result.c2),
+                formatComboStr(result.c2, result.c3),
+                formatComboStr(result.c3, result.c4),
+                formatComboStr(result.c4, result.c5),
+                formatComboStr(result.c5, result.c6)
+            ].filter(x => x);
+
+            reportText += `### ASOCIACIONES RESULTANTES VÁLIDAS\n`;
+            if (combosReales.length > 0) {
+                reportText += combosReales.join("\n\n") + "\n\n";
             } else {
-                contextText += `MATRIZ DE COMBINACIONES DETECTADAS: Ninguna combinación exacta registrada.\n\n`;
+                reportText += "(Ninguna asociación contigua válida encontrada)\n\n";
             }
         }
 
-        let text = "";
-        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash", systemInstruction: systemPrompt });
-        let retries = 3;
-        while (retries > 0) {
-            try {
-                const aiResponse = await model.generateContent(contextText);
-                text = aiResponse.response.text();
-                break;
-            } catch (e) {
-                console.error(`Error contactando con Gemini API. Reintentos restantes: ${retries - 1}`, e);
-                retries--;
-                if (retries === 0) {
-                    text = "# INFORME DE PROYECCIÓN DE FUTURO Y MATRIZ VECTORIAL\n\nHubo un error de conexión persistente con la IA cuántica. Por favor, inténtalo de nuevo más tarde.";
-                } else {
-                    await new Promise(resolve => setTimeout(resolve, 2000 * (4 - retries)));
-                }
-            }
-        }
+        // Agregar los tres poderes literal
+        reportText += `\n---\n\n${det.textos_fijos.tres_poderes || '5.- EL MÉTODO BÉNTURI Y LOS TRES PODERES (No se cargó el texto fijo)'}\n`;
         
-        res.json({ report: text });
+        // Devolvemos la respuesta programática al frontend (instantáneo)
+        res.json({ report: reportText });
 
     } catch (error) {
         console.error("Error generando reporte:", error);
-        res.status(500).json({ error: "Error generando informe cuántico" });
+        res.status(500).json({ error: "Error ensamblando el informe determinista" });
     }
 });
 
