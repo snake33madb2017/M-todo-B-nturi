@@ -319,6 +319,7 @@ app.post('/api/redsys-webhook', (req, res) => {
     }
 });
 
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 const PDFDocument = require("pdfkit");
 const fs = require('fs');
 const path = require('path');
@@ -326,6 +327,15 @@ const path = require('path');
 app.post('/api/generate-report', async (req, res) => {
     try {
         const { question, result } = req.body;
+        
+        const apiKey = process.env.GEMINI_API_KEY || "PEGA_AQUI_TU_API_KEY_DE_GEMINI";
+        if (apiKey === "PEGA_AQUI_TU_API_KEY_DE_GEMINI") {
+            console.warn("Falta GEMINI_API_KEY en .env");
+        }
+        
+        const genAI = new GoogleGenerativeAI(apiKey);
+        const promptFile = path.join(__dirname, 'prompt_generacion.txt');
+        const systemPrompt = fs.readFileSync(promptFile, 'utf8');
         
         // Leer base de conocimientos de combinaciones y significados deterministas
         const kbPath = path.join(__dirname, 'base_conocimiento_cartas.json');
@@ -344,17 +354,12 @@ app.post('/api/generate-report', async (req, res) => {
         const normalizeCard = (name) => name ? name.toLowerCase().replace(/ de /g, ' ').trim() : '';
         
         const getDeterministicInfo = (cardName) => {
-            console.log("DEBUG getDeterministicInfo recibió:", cardName);
             if (!cardName) return "Sin carta";
-            
-            // Buscar coincidencia exacta o similar en las keys
             const keys = Object.keys(det.cartas);
             const foundKey = keys.find(k => normalizeCard(k) === normalizeCard(cardName));
-            console.log("DEBUG foundKey:", foundKey, "para cardName:", cardName, "normalized:", normalizeCard(cardName));
-            
             if (foundKey) {
                 const info = det.cartas[foundKey];
-                return `**Amor y Relaciones**: ${info.Amor || 'N/A'}\n\n**Trabajo y Profesión**: ${info.Trabajo || 'N/A'}\n\n**Dinero y Finanzas**: ${info.Dinero || 'N/A'}\n\n**Salud y Bienestar**: ${info.Salud || 'N/A'}\n\n**Evolución Personal y Decisiones**: ${info.Evolucion || 'N/A'}`;
+                return `**Amor y Relaciones**: ${info.Amor || 'N/A'}\n**Trabajo y Profesión**: ${info.Trabajo || 'N/A'}\n**Dinero y Finanzas**: ${info.Dinero || 'N/A'}\n**Salud y Bienestar**: ${info.Salud || 'N/A'}\n**Evolución Personal y Decisiones**: ${info.Evolucion || 'N/A'}`;
             }
             return "Información no encontrada en la base determinista.";
         };
@@ -378,37 +383,25 @@ app.post('/api/generate-report', async (req, res) => {
             return null;
         };
 
-        let reportText = `PREGUNTA DEL CONSULTANTE\n"${question}"\n\n`;
-        reportText += `1.- ANÁLISIS INDIVIDUAL DE CADA VECTOR-CARTA RESPECTO A LA PREGUNTA\n\n`;
+        let contextText = "";
+        let vectoresArray = [];
 
         if (result.q1) {
             // Matriz 24
-            const cuadrantes = [
-                { pos: "Cuadrante 1: Origen y Causa Subyacente", cartasStr: result.q1 },
-                { pos: "Cuadrante 2: Fricción y Resistencia", cartasStr: result.q2 },
-                { pos: "Cuadrante 3: Puntos de Inflexión y Acción", cartasStr: result.q3 },
-                { pos: "Cuadrante 4: Proyección y Desenlace", cartasStr: result.q4 }
+            vectoresArray = [
+                { posicion: "Cuadrante 1: Origen y Causa Subyacente", cartas: result.q1 },
+                { posicion: "Cuadrante 2: Fricción y Resistencia", cartas: result.q2 },
+                { posicion: "Cuadrante 3: Puntos de Inflexión y Acción", cartas: result.q3 },
+                { posicion: "Cuadrante 4: Proyección y Desenlace", cartas: result.q4 }
             ];
-            
-            cuadrantes.forEach(c => {
-                reportText += `### ${c.pos}\nCartas: ${c.cartasStr}\n*(Nota: En matriz de 24 se requiere extracción manual de cartas para el análisis individual detallado)*\n\n`;
-            });
-
+            contextText = `TIPO DE MATRIZ: Matriz Express de 24 Vectores\nPREGUNTA DEL USUARIO: ${question}\n\nDATOS EXTRAÍDOS (Resumen por Cuadrantes):\n${JSON.stringify(vectoresArray, null, 2)}`;
         } else {
             // Matriz 6
-            const cartasArray = [
-                { id: 1, name: result.c1 },
-                { id: 2, name: result.c2 },
-                { id: 3, name: result.c3 },
-                { id: 4, name: result.c4 },
-                { id: 5, name: result.c5 },
-                { id: 6, name: result.c6 }
+            vectoresArray = [
+                { posicion: "Situación Inicial", cartas: `${result.c1}, ${result.c2}`, info_c1: getDeterministicInfo(result.c1), info_c2: getDeterministicInfo(result.c2) },
+                { posicion: "Desarrollo", cartas: `${result.c3}, ${result.c4}`, info_c3: getDeterministicInfo(result.c3), info_c4: getDeterministicInfo(result.c4) },
+                { posicion: "Desenlace", cartas: `${result.c5}, ${result.c6}`, info_c5: getDeterministicInfo(result.c5), info_c6: getDeterministicInfo(result.c6) }
             ];
-
-            cartasArray.forEach(c => {
-                reportText += `### Carta ${c.id}: ${c.name || 'N/A'}\n`;
-                reportText += `${getDeterministicInfo(c.name)}\n\n`;
-            });
 
             const combosReales = [
                 formatComboStr(result.c1, result.c2),
@@ -418,19 +411,52 @@ app.post('/api/generate-report', async (req, res) => {
                 formatComboStr(result.c5, result.c6)
             ].filter(x => x);
 
-            reportText += `### ASOCIACIONES RESULTANTES VÁLIDAS\n`;
+            let extraFormatText = "REGLA DE FORMATO OBLIGATORIO Y ESTRICTO AL INICIO DEL REPORTE:\n";
+            extraFormatText += "Pondrás por escrito exactamente lo siguiente antes de empezar el análisis detallado:\n";
+            extraFormatText += `1 [Primera carta: ${result.c1 || 'N/A'}]\n`;
+            extraFormatText += `2 [Segunda carta: ${result.c2 || 'N/A'}]\n`;
+            extraFormatText += `3 [Tercera carta: ${result.c3 || 'N/A'}]\n`;
+            extraFormatText += `4 [Cuarta carta: ${result.c4 || 'N/A'}]\n`;
+            extraFormatText += `5 [Quinta carta: ${result.c5 || 'N/A'}]\n`;
+            extraFormatText += `6 [Sexta carta: ${result.c6 || 'N/A'}]\n\n`;
+            extraFormatText += `Asociaciones resultantes válidas:\n`;
             if (combosReales.length > 0) {
-                reportText += combosReales.join("\n\n") + "\n\n";
+                extraFormatText += combosReales.join("\n") + "\n\n";
             } else {
-                reportText += "(Ninguna asociación contigua válida encontrada)\n\n";
+                extraFormatText += "(Ninguna asociación contigua válida encontrada)\n\n";
             }
+
+            contextText = extraFormatText + `TIPO DE MATRIZ: Matriz de 6 Vectores\nPREGUNTA DEL USUARIO: ${question}\n\nVECTORES BASE CON INFORMACIÓN DETERMINISTA DE LA BASE DE DATOS:\n${JSON.stringify(vectoresArray, null, 2)}\n\n`;
         }
 
-        // Agregar los tres poderes literal
-        reportText += `\n---\n\n${det.textos_fijos.tres_poderes || '5.- EL MÉTODO BÉNTURI Y LOS TRES PODERES (No se cargó el texto fijo)'}\n`;
+        let text = "";
+        const model = genAI.getGenerativeModel({ 
+            model: "gemini-1.5-pro-002", 
+            systemInstruction: systemPrompt,
+            generationConfig: {
+                temperature: 0.0,
+                topP: 1
+            }
+        });
         
-        // Devolvemos la respuesta programática al frontend (instantáneo)
-        res.json({ report: reportText });
+        let retries = 3;
+        while (retries > 0) {
+            try {
+                const aiResponse = await model.generateContent(contextText);
+                text = aiResponse.response.text();
+                break;
+            } catch (e) {
+                console.error(`Error contactando con Gemini API. Reintentos restantes: ${retries - 1}`, e);
+                retries--;
+                if (retries === 0) {
+                    text = "# INFORME DE PROYECCIÓN DE FUTURO Y MATRIZ VECTORIAL\n\nHubo un error de conexión persistente con la IA cuántica. Por favor, inténtalo de nuevo más tarde.";
+                } else {
+                    await new Promise(resolve => setTimeout(resolve, 2000 * (4 - retries)));
+                }
+            }
+        }
+        
+        res.json({ report: text });
 
     } catch (error) {
         console.error("Error generando reporte:", error);

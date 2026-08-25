@@ -37,8 +37,14 @@ export default function Fase1_24Screen({ user, token, onLoginClick }) {
   const handleDownloadPdf = async () => {
     setIsGeneratingPdf(true);
     try {
-      const markdownReport = generateDeterministicReport(question, result);
-      await generarPDFDesdeMarkdown(markdownReport, "Informe_Cuantico_Benturi.pdf");
+      const resp = await fetch('/api/generate-report', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question, result })
+      });
+      if (!resp.ok) throw new Error('Error en la API');
+      const data = await resp.json();
+      await generarPDFDesdeMarkdown(data.report, "Informe_Cuantico_Benturi.pdf");
     } catch(err) {
       alert("Hubo un error al generar el informe. Verifica tu conexión e inténtalo de nuevo.");
       console.error(err);
