@@ -431,7 +431,7 @@ app.post('/api/generate-report', async (req, res) => {
 
         let text = "";
         const model = genAI.getGenerativeModel({ 
-            model: "gemini-3.7-flash", 
+            model: "gemini-3.5-flash", 
             systemInstruction: systemPrompt,
             generationConfig: {
                 temperature: 0.0,
