@@ -319,7 +319,7 @@ app.post('/api/redsys-webhook', (req, res) => {
     }
 });
 
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { OpenAI } = require("openai");
 const PDFDocument = require("pdfkit");
 const fs = require('fs');
 const path = require('path');
@@ -328,12 +328,12 @@ app.post('/api/generate-report', async (req, res) => {
     try {
         const { question, result } = req.body;
         
-        const apiKey = process.env.GEMINI_API_KEY || "PEGA_AQUI_TU_API_KEY_DE_GEMINI";
-        if (apiKey === "PEGA_AQUI_TU_API_KEY_DE_GEMINI") {
-            console.warn("Falta GEMINI_API_KEY en .env");
+        const apiKey = process.env.OPENAI_API_KEY;
+        if (!apiKey) {
+            console.warn("Falta OPENAI_API_KEY en .env");
         }
         
-        const genAI = new GoogleGenerativeAI(apiKey);
+        const openai = new OpenAI({ apiKey });
         const promptFile = path.join(__dirname, 'prompt_generacion.txt');
         const systemPrompt = fs.readFileSync(promptFile, 'utf8');
         
@@ -430,23 +430,22 @@ app.post('/api/generate-report', async (req, res) => {
         }
 
         let text = "";
-        const model = genAI.getGenerativeModel({ 
-            model: "gemini-3.5-flash", 
-            systemInstruction: systemPrompt,
-            generationConfig: {
-                temperature: 0.0,
-                topP: 1
-            }
-        });
-        
         let retries = 3;
         while (retries > 0) {
             try {
-                const aiResponse = await model.generateContent(contextText);
-                text = aiResponse.response.text();
+                const aiResponse = await openai.chat.completions.create({
+                    model: "gpt-4o-mini",
+                    messages: [
+                        { role: "system", content: systemPrompt },
+                        { role: "user", content: contextText }
+                    ],
+                    temperature: 0.0,
+                    top_p: 1
+                });
+                text = aiResponse.choices[0].message.content;
                 break;
             } catch (e) {
-                console.error(`Error contactando con Gemini API. Reintentos restantes: ${retries - 1}`, e);
+                console.error(`Error contactando con OpenAI API. Reintentos restantes: ${retries - 1}`, e);
                 retries--;
                 if (retries === 0) {
                     text = "# INFORME DE PROYECCIÓN DE FUTURO Y MATRIZ VECTORIAL\n\nHubo un error de conexión persistente con la IA cuántica. Detalles del error: " + e.message;
