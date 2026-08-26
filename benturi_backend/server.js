@@ -431,7 +431,7 @@ app.post('/api/generate-report', async (req, res) => {
 
         let text = "";
         const model = genAI.getGenerativeModel({ 
-            model: "gemini-2.5-pro", 
+            model: "gemini-3.6-flash", 
             systemInstruction: systemPrompt,
             generationConfig: {
                 temperature: 0.0,
@@ -456,6 +456,19 @@ app.post('/api/generate-report', async (req, res) => {
             }
         }
         
+        // Append static text if the generation succeeded
+        if (retries > 0) {
+            try {
+                const staticPathFile = path.join(__dirname, 'texto_estatico_informe.txt');
+                if (fs.existsSync(staticPathFile)) {
+                    const staticContent = fs.readFileSync(staticPathFile, 'utf8');
+                    text += '\n\n' + staticContent;
+                }
+            } catch (err) {
+                console.error("Error leyendo texto_estatico_informe.txt", err);
+            }
+        }
+
         res.json({ report: text });
 
     } catch (error) {
