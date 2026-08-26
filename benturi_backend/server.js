@@ -449,7 +449,7 @@ app.post('/api/generate-report', async (req, res) => {
                 console.error(`Error contactando con Gemini API. Reintentos restantes: ${retries - 1}`, e);
                 retries--;
                 if (retries === 0) {
-                    text = "# INFORME DE PROYECCIÓN DE FUTURO Y MATRIZ VECTORIAL\n\nHubo un error de conexión persistente con la IA cuántica. Por favor, inténtalo de nuevo más tarde.";
+                    text = "# INFORME DE PROYECCIÓN DE FUTURO Y MATRIZ VECTORIAL\n\nHubo un error de conexión persistente con la IA cuántica. Detalles del error: " + e.message;
                 } else {
                     await new Promise(resolve => setTimeout(resolve, 2000 * (4 - retries)));
                 }
